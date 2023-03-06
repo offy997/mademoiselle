@@ -1,1 +1,873 @@
-{"current":{"color_text":"#000000","color_body_text":"#000000","color_sale_text":"#EA0606","color_button":"#3a3a3a","color_button_text":"#ffffff","color_small_button_text_border":"#3a3a3a","color_text_field_text":"#000000","color_text_field_border":"#cccccc","color_text_field":"#ffffff","color_image_overlay_text":"#ffffff","color_image_overlay":"#685858","image_overlay_opacity":40,"color_borders":"#ebebeb","color_body_bg":"#ffffff","type_header_font":"helvetica_n4","type_header_base_size":24,"type_base_font":"helvetica_n4","type_base_size":15,"social_twitter_link":"https:\/\/twitter.com\/shopify","social_facebook_link":"https:\/\/facebook.com\/shopify","social_pinterest_link":"","social_instagram_link":"http:\/\/instagram.com\/shopify","favicon":"shopify:\/\/shop_images\/logo.png","checkout_header_image":"shopify:\/\/shop_images\/cropped-Light-Pink-Background-Wallpaper.jpg","checkout_logo_image":"shopify:\/\/shop_images\/Mademoiselle.png","checkout_logo_position":"center","checkout_logo_size":"medium","checkout_body_background_color":"#fff","checkout_input_background_color_mode":"white","checkout_sidebar_background_color":"#fafafa","checkout_heading_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_body_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_accent_color":"#000000","checkout_button_color":"#000000","checkout_error_color":"#e22120","mlvedaACS_roundDecimal":false,"mlvedaACS_autoSwitch":false,"mlvedaACS_messageContent":"<<shop.name>> process all orders in <<shop.currency>>. While the content of your cart is currently displayed in <<shop.selected_currency>>, you will checkout using <<shop.currency>> at the most current exchange rate.","mlvedaACS_os2":false,"mlvedaACS_positionTop":"10px","mlvedaACS_isCustomized":true,"mlvedaACS_positionRight":"10px","mlvedaACS_borderLook":false,"mlvedaACS_positionLeft":"10px","mlvedaACS_defaultCurrency":"VND","mlvedaACS_textColor":"inherit","mlvedaACS_flagStyle":"circle","mlvedaACS_isMessageDisplay":true,"mlvedaACS_positionBottom":"10px","mlvedaACS_messageBackgroundColor":"inherit","mlvedaACS_roundDecimalValue":1,"mlvedaACS_backgroundColor":"inherit","mlvedaACS_position":"top_with_right","mlvedaACS_messageColor":"inherit","mlvedaACS_textHoverColor":"inherit","mlvedaACS_enable":false,"mlvedaACS_supportedCurrencies":"USD VND EUR","mlvedaACS_hideDecimal":false,"mlvedaACS_hoverBackgroundColor":"inherit","mlvedaACS_currencyFormat":"money_with_currency_format","mlvedaACS_borderLineColor":"inherit","mlvedaACS_displayFlag":false,"sections":{"16375742795226ecd3":{"type":"featured-blog","settings":{"title":"Magazine","paragraph":"<p>We want to share with you information, documents, articles related to health and beauty, follow us to update the latest news. All information about our products is also mentioned each article, if you have any questions about the product, please read the details.<\/p>","blog":"news","post_limit":3,"blog_show_author":false,"blog_show_date":true,"show_view_all":true,"read_more_text":"Read more","view_all_text":"All blog"}},"footer":{"type":"footer","blocks":{"footer-1":{"type":"newsletter","settings":{"title":"Newsletter"}},"footer-0":{"type":"link_list","settings":{"title":"Quick links","menu":"footer"}},"97c91fec-f9b1-44f5-a612-a193a8e3e60e":{"type":"text","settings":{"title":"Talk about your business","text":"<p>Share store details, promotions, or brand content with your customers.<\/p>"}}},"block_order":["footer-0","footer-1","97c91fec-f9b1-44f5-a612-a193a8e3e60e"],"settings":{"show_payment_icons":true,"color_footer_bg":"#f6f6f6","color_footer_text":"#333232","show_currency_selector":true,"show_locale_selector":true}},"1637160127313c807a":{"type":"collection-slider","settings":{"title":"","collection":"all","grid":4,"show_vendor":false,"show_view_all":false}},"16375795075897c9d4":{"type":"spacer","settings":{"space":100}},"1637565827218e6c23":{"type":"spacer","settings":{"space":80}},"quotes":{"type":"quotes","blocks":{"quotes-0":{"type":"quote","settings":{"quote":"<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>","author":"Author's name"}},"quotes-1":{"type":"quote","settings":{"quote":"<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>","author":"Author's name"}},"quotes-2":{"type":"quote","settings":{"quote":"<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>","author":"Author's name"}}},"block_order":["quotes-0","quotes-1","quotes-2"],"settings":{"title":""}},"product-template":{"type":"product-template","settings":{"show_quantity_selector":true,"show_vendor":false,"enable_payment_button":true,"show_share_buttons":true,"media_size":"medium","enable_image_zoom":true,"enable_video_looping":false}},"1637211602e2518dc1":{"type":"instafeed","settings":{"heading_size":10,"feed_width":100,"html_area":"<h3 style=\"text-align:center;font-size:16px; display:flex; align-items:center;justify-content:center;padding-top:90px;\" class=\"wow fadeIn\" data-wow-delay=\"0.2s\">\n<a href=\"https:\/\/www.instagram.com\/officiencedev\/\" target=\"_blank\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0609\/1879\/2439\/files\/Group_207.png?v=1637213233\"><\/a>\n<span style=\"padding-left: 20px\">Mademoisellefrance<\/span>\n<\/h3>"}},"blog-template":{"type":"blog-template","settings":{"layout":"grid","blog_show_author":true,"blog_show_date":true,"read_more_text":""}},"1637076259afa2ee8d":{"type":"hero-officience","settings":{"officience_banner_heading":"A blessing of water for every skin","officience_banner_des":"We are wellness advocates, science enthusiasts and changemakers with a deep respect for nature and a firm belief in its ability to bring us back to balance. We founded Prima to provide the products tools and education that will help us get there.","Officience_banner_button_text":"Our products","Officience_banner_button_link":"shopify:\/\/collections\/all"}},"1637551880d50bf0fd":{"type":"spacer","settings":{"space":80}},"cart-template":{"type":"cart-template","settings":{"cart_ajax_enable":true,"cart_notes_enable":false}},"1637314214290d0a41":{"type":"feature-row-video","settings":{"video":"https:\/\/www.youtube.com\/embed\/A1OMYaoZBG8","height_video":580,"layout":"right","title":"We believe in better","text":"<p>We wanted to take an autonomous approach. Working from the ground up, we built an online-only, direct to customer model, which means we can sell premium products with the highest quality ingredients at a great price.<\/p>","button_label":"About us","button_link":"shopify:\/\/pages\/about-us"}},"16371649469b776b23":{"type":"feature-row","settings":{"image":"shopify:\/\/shop_images\/Rectangle_143_1.png","layout":"right","title":"Sensuality","text":"<p>Our Essentially Feminine Range is designed to bring beauty, light and well-being, so that you can enjoy yourself and find and enhance your feminine energy, harmony and balance as well as live joy and pleasure in a way that fills you with light. Discover which is perfect ally to enhance your sensuality. <\/p>","button_label":"Sensuality product","button_link":"shopify:\/\/collections\/category-sensuality"}},"1637164989cb8ea7be":{"type":"feature-row","settings":{"image":"shopify:\/\/shop_images\/Rectangle_143_2.png","layout":"left","title":"Serenity","text":"<p>Our Essentially Feminine Range is designed to bring beauty, light and well-being, so that you can enjoy yourself and find and enhance your feminine energy, harmony and balance as well as live joy and pleasure in a way that fills you with light. Discover which is perfect ally to enhance your sensuality. <\/p>","button_label":"Serenity product","button_link":"shopify:\/\/collections\/category-serenity"}},"16375515878483e814":{"type":"spacer","settings":{"space":70}},"16375648993723f00d":{"type":"content-quote","settings":{"font_size":40,"line_height":80,"content_aligment":"center","text_color":"#000000","paragraph":"<p>A collection of innovative formulas mixing<br\/>the finest organic and wild crafted oils,<br\/>butters and extracts from all over the world<\/p>"}},"collection":{"type":"collection","settings":{"title":"Serenity","collection":"all","grid":3,"rows":1,"show_vendor":true,"show_view_all":false}},"collection-template":{"type":"collection-template","settings":{"layout":"grid","grid":4,"rows":2,"show_collection_image":true,"show_vendor":false,"sort_enable":true,"tags_enable":true}},"1637317350178be386":{"type":"spacer","settings":{"space":70}},"footer-new":{"type":"footer-new","settings":{"logo_footer":"shopify:\/\/shop_images\/Mademoiselle.png","title_newsletter":"Newsletter subscription","footer_menu_col_1":"footer","footer_menu_col_2":"footer-second-menu","footer_social_title":"Titre social"}},"feature-row":{"type":"feature-row","settings":{"image":"shopify:\/\/shop_images\/Rectangle_143.png","layout":"left","title":"Vitality","text":"<p>Stevia herb extract, pink pepper. Create a protective<br\/>barrier against bacteria.Reduce wrinkles, regenerate cells. Combats external influences and signs of skin fatigue.<br\/>Minimizes appearance of fine lines, leaving you smoother,<br\/>more refined complexion with visibly restored luminosity<\/p>","button_label":"Vitality product","button_link":"shopify:\/\/collections\/category-vitality"}},"image-bar":{"type":"image-bar","blocks":{"image-bar-2":{"type":"image","settings":{"alignment":"center","link":"","cta_label":""}},"image-bar-1":{"type":"image","settings":{"alignment":"center","link":"","cta_label":""}},"image-bar-0":{"type":"image","settings":{"alignment":"center","link":"","cta_label":""}}},"block_order":["image-bar-0","image-bar-1","image-bar-2"],"settings":{"section_height":"medium"}},"163755160539f1d9a3":{"type":"spacer","settings":{"space":70}},"header":{"type":"header","settings":{"align_logo":"center","logo":"shopify:\/\/shop_images\/Mademoiselle.png","logo_max_width":110,"main_linklist":"main-menu","message":false,"home_page_only":true,"message_text":"Announce something here","message_link":"","color_bg":"#3a3a3a","color_text":"#ffffff"}},"product-recommendations":{"type":"product-recommendations","settings":{"show_product_recommendations":true,"heading":"You may also like","show_vendor":false}},"feature-columns":{"type":"feature-columns","blocks":{"feature-columns-2":{"type":"text_block","settings":{"enable_image":true,"title":"Add a title or tagline","text":"<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>","button_label":"","button_link":""}},"feature-columns-1":{"type":"text_block","settings":{"enable_image":true,"title":"Add a title or tagline","text":"<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>","button_label":"","button_link":""}},"feature-columns-0":{"type":"text_block","settings":{"enable_image":true,"title":"Add a title or tagline","text":"<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>","button_label":"","button_link":""}}},"block_order":["feature-columns-0","feature-columns-1","feature-columns-2"],"settings":{"title":"","align_text":"left"}},"collection-template-new":{"type":"collection-template-new","settings":{"layout":"grid","grid":4,"rows":2,"show_collection_image":true,"show_vendor":false,"sort_enable":true,"tags_enable":true,"load_more_pagination":"load_more","title_hight_product":"Hight Product","des_hight_product":"Here’s some of our most popular products people are in love with."}}},"content_for_index":["1637076259afa2ee8d","feature-row","16375515878483e814","16371649469b776b23","1637317350178be386","1637164989cb8ea7be","163755160539f1d9a3","1637314214290d0a41","1637565827218e6c23","16375648993723f00d","1637551880d50bf0fd","1637160127313c807a","16375742795226ecd3","16375795075897c9d4","1637211602e2518dc1"]},"presets":{"Light":{"checkout_body_font":"Source Sans Pro","social_youtube_link":"","type_header_base_size":26,"share_twitter":true,"checkout_sidebar_background_color":"#e8f3f6","color_small_button_text_border":"#162950","checkout_input_background_color_mode":"white","social_pinterest_link":"","color_button":"#DA2F0C","color_body_text":"#6d6d6d","checkout_header_image":"","color_text":"#162950","social_instagram_link":"","checkout_error_color":"#ff6d6d","social_tumblr_link":"","checkout_body_background_color":"#ffffff","color_text_field_text":"#162950","checkout_sidebar_background_image":"","image_overlay_opacity":40,"checkout_heading_font":"Roboto","share_facebook":true,"favicon":"","social_facebook_link":"","social_vimeo_link":"","checkout_accent_color":"#1990c6","color_sale_text":"#DA2F0C","color_button_text":"#ffffff","share_pinterest":true,"checkout_body_background_image":"","type_base_font":"muli_n4","sections":{"footer":{"settings":{"color_footer_bg":"#f8f8f8","color_footer_text":"#6d6d6d"},"blocks":{"newsletter":{"settings":{},"type":"newsletter"},"link_list":{"settings":{},"type":"link_list"},"text":{"settings":{},"type":"text"}},"type":"footer","block_order":["link_list","text","newsletter"]},"hero":{"settings":{"hero_size":"x-large","text_size":"large","alignment":"center"},"type":"hero"},"featured-collections":{"settings":{"show_vendor":true,"grid":3,"rows":1,"show_view_all":true},"type":"collection"},"1492033809691":{"settings":{},"type":"map"},"collection-template":{"settings":{"layout":"grid","tags_enable":true,"show_vendor":false,"grid":2,"show_collection_image":true,"rows":2,"sort_enable":true},"type":"collection-template"},"1492033924902":{"settings":{"title":""},"blocks":{"1492033924902-0":{"settings":{"align_text":"center","width":"100%","alignment":"center"},"type":"text"}},"type":"custom-content","block_order":["1492033924902-0"]},"article-template":{"settings":{"show_share_buttons":true,"blog_show_date":true,"blog_show_author":true},"type":"article-template"},"product-template":{"settings":{"enable_video_looping":false,"show_vendor":false,"media_size":"medium","show_share_buttons":true,"enable_image_zoom":true,"show_quantity_selector":false},"type":"product-template"},"blog-template":{"settings":{"layout":"grid","blog_show_date":false,"blog_show_author":true},"type":"blog-template"},"header":{"settings":{"color_bg":"#162950","align_logo":"left","logo_max_width":135,"color_text":"#ffffff","logo":"","message":true,"main_linklist":"main-menu"},"type":"header"},"slideshow":{"settings":{"text_size":"medium","autorotate":false,"autorotate_speed":5,"slideshow_height":"medium"},"blocks":{"1492095993817":{"settings":{"image":"","alignment":"center"},"type":"image"},"slideshow-0":{"settings":{"image":"","alignment":"center center"},"type":"image"}},"type":"slideshow","block_order":["slideshow-0","1492095993817"]},"1492096252560":{"settings":{"grid":3},"blocks":{"1492096252560-1":{"settings":{},"type":"featured_collection"},"1492096252560-0":{"settings":{},"type":"featured_collection"},"1492096252560-2":{"settings":{},"type":"featured_collection"}},"type":"collection-list","block_order":["1492096252560-0","1492096252560-1","1492096252560-2"]},"cart-template":{"settings":{"cart_notes_enable":false},"type":"cart-template"},"1492033877875":{"settings":{},"blocks":{"1492033877875-0":{"settings":{},"type":"quote"}},"type":"quotes","block_order":["1492033877875-0"]}},"social_snapchat_link":"","color_body_bg":"#f8f8f8","content_for_index":["hero","featured-collections","slideshow","1492033924902","1492096252560","1492033877875","1492033809691"],"type_base_size":18,"color_image_overlay_text":"#ffffff","color_image_overlay":"#3d3d3d","color_text_field_border":"#909090","checkout_logo_position":"left","checkout_logo_size":"small","color_borders":"#e4e4e4","color_text_field":"#ffffff","checkout_button_color":"#23314e","type_header_font":"muli_n6","social_twitter_link":"","checkout_logo_image":""},"Default":{"content_for_index":["hero-1","feature-row","feature-columns","collection","hero-2","quotes","image-bar"],"sections":{"hero-1":{"settings":{"hero_size":"large","text_size":"large"},"type":"hero"},"hero-2":{"settings":{"text_size":"large"},"type":"hero"},"feature-row":{"settings":{},"type":"feature-row"},"footer":{"settings":{"show_payment_icons":true},"blocks":{"footer-1":{"settings":{},"type":"newsletter"},"footer-0":{"settings":{},"type":"link_list"}},"type":"footer","block_order":["footer-0","footer-1"]},"image-bar":{"settings":{},"blocks":{"image-bar-2":{"settings":{},"type":"image"},"image-bar-1":{"settings":{},"type":"image"},"image-bar-0":{"settings":{},"type":"image"}},"type":"image-bar","block_order":["image-bar-0","image-bar-1","image-bar-2"]},"header":{"settings":{},"type":"header"},"collection":{"settings":{"grid":4},"type":"collection"},"feature-columns":{"settings":{"title":""},"blocks":{"feature-columns-2":{"settings":{},"type":"text_block"},"feature-columns-1":{"settings":{},"type":"text_block"},"feature-columns-0":{"settings":{},"type":"text_block"}},"type":"feature-columns","block_order":["feature-columns-0","feature-columns-1","feature-columns-2"]},"quotes":{"settings":{"title":""},"blocks":{"quotes-0":{"settings":{},"type":"quote"},"quotes-1":{"settings":{},"type":"quote"},"quotes-2":{"settings":{},"type":"quote"}},"type":"quotes","block_order":["quotes-0","quotes-1","quotes-2"]}}}}}
+{
+  "current": {
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "mlvedaACS_roundDecimal": false,
+    "type_header_base_size": 24,
+    "color_small_button_text_border": "#3a3a3a",
+    "mlvedaACS_autoSwitch": false,
+    "color_button": "#3a3a3a",
+    "checkout_header_image": "shopify:\/\/shop_images\/cropped-Light-Pink-Background-Wallpaper.jpg",
+    "mlvedaACS_messageContent": "<<shop.name>> process all orders in <<shop.currency>>. While the content of your cart is currently displayed in <<shop.selected_currency>>, you will checkout using <<shop.currency>> at the most current exchange rate.",
+    "social_instagram_link": "http:\/\/instagram.com\/shopify",
+    "checkout_body_background_color": "#fff",
+    "color_text_field_text": "#000000",
+    "mlvedaACS_os2": false,
+    "mlvedaACS_positionTop": "10px",
+    "checkout_accent_color": "#000000",
+    "mlvedaACS_isCustomized": true,
+    "color_sale_text": "#EA0606",
+    "color_button_text": "#ffffff",
+    "sections": {
+      "16375742795226ecd3": {
+        "settings": {
+          "paragraph": "<p>We want to share with you information, documents, articles related to health and beauty, follow us to update the latest news. All information about our products is also mentioned each article, if you have any questions about the product, please read the details.<\/p>",
+          "view_all_text": "All blog",
+          "post_limit": 3,
+          "title": "Magazine",
+          "blog": "news",
+          "blog_show_date": true,
+          "show_view_all": true,
+          "read_more_text": "Read more",
+          "blog_show_author": false
+        },
+        "type": "featured-blog"
+      },
+      "footer": {
+        "settings": {
+          "show_payment_icons": true,
+          "color_footer_bg": "#f6f6f6",
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "color_footer_text": "#333232"
+        },
+        "blocks": {
+          "footer-1": {
+            "settings": {
+              "title": "Newsletter"
+            },
+            "type": "newsletter"
+          },
+          "footer-0": {
+            "settings": {
+              "title": "Quick links",
+              "menu": "footer"
+            },
+            "type": "link_list"
+          },
+          "97c91fec-f9b1-44f5-a612-a193a8e3e60e": {
+            "settings": {
+              "text": "<p>Share store details, promotions, or brand content with your customers.<\/p>",
+              "title": "Talk about your business"
+            },
+            "type": "text"
+          }
+        },
+        "type": "footer",
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "97c91fec-f9b1-44f5-a612-a193a8e3e60e"
+        ]
+      },
+      "1637160127313c807a": {
+        "settings": {
+          "show_vendor": false,
+          "grid": 4,
+          "collection": "all",
+          "title": "",
+          "show_view_all": false
+        },
+        "type": "collection-slider"
+      },
+      "16375795075897c9d4": {
+        "settings": {
+          "space": 100
+        },
+        "type": "spacer"
+      },
+      "1637565827218e6c23": {
+        "settings": {
+          "space": 80
+        },
+        "type": "spacer"
+      },
+      "quotes": {
+        "settings": {
+          "title": ""
+        },
+        "blocks": {
+          "quotes-0": {
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            },
+            "type": "quote"
+          },
+          "quotes-1": {
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            },
+            "type": "quote"
+          },
+          "quotes-2": {
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            },
+            "type": "quote"
+          }
+        },
+        "type": "quotes",
+        "block_order": [
+          "quotes-0",
+          "quotes-1",
+          "quotes-2"
+        ]
+      },
+      "product-template": {
+        "settings": {
+          "enable_video_looping": false,
+          "show_vendor": false,
+          "media_size": "medium",
+          "show_share_buttons": true,
+          "enable_image_zoom": true,
+          "enable_payment_button": true,
+          "show_quantity_selector": true
+        },
+        "type": "product-template"
+      },
+      "1637211602e2518dc1": {
+        "settings": {
+          "html_area": "<h3 style=\"text-align:center;font-size:16px; display:flex; align-items:center;justify-content:center;padding-top:90px;\" class=\"wow fadeIn\" data-wow-delay=\"0.2s\">\n<a href=\"https:\/\/www.instagram.com\/officiencedev\/\" target=\"_blank\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0609\/1879\/2439\/files\/Group_207.png?v=1637213233\"><\/a>\n<span style=\"padding-left: 20px\">Mademoisellefrance<\/span>\n<\/h3>",
+          "feed_width": 100,
+          "heading_size": 10
+        },
+        "type": "instafeed"
+      },
+      "blog-template": {
+        "settings": {
+          "layout": "grid",
+          "blog_show_date": true,
+          "read_more_text": "",
+          "blog_show_author": true
+        },
+        "type": "blog-template"
+      },
+      "1637076259afa2ee8d": {
+        "settings": {
+          "officience_banner_heading": "A blessing of water for every skin",
+          "Officience_banner_button_link": "shopify:\/\/collections\/all",
+          "officience_banner_des": "We are wellness advocates, science enthusiasts and changemakers with a deep respect for nature and a firm belief in its ability to bring us back to balance. We founded Prima to provide the products tools and education that will help us get there.",
+          "Officience_banner_button_text": "Our products"
+        },
+        "type": "hero-officience"
+      },
+      "1637551880d50bf0fd": {
+        "settings": {
+          "space": 80
+        },
+        "type": "spacer"
+      },
+      "cart-template": {
+        "settings": {
+          "cart_ajax_enable": true,
+          "cart_notes_enable": false
+        },
+        "type": "cart-template"
+      },
+      "1637314214290d0a41": {
+        "settings": {
+          "layout": "right",
+          "height_video": 580,
+          "button_link": "shopify:\/\/pages\/about-us",
+          "video": "https:\/\/www.youtube.com\/embed\/A1OMYaoZBG8",
+          "text": "<p>We wanted to take an autonomous approach. Working from the ground up, we built an online-only, direct to customer model, which means we can sell premium products with the highest quality ingredients at a great price.<\/p>",
+          "button_label": "About us",
+          "title": "We believe in better"
+        },
+        "type": "feature-row-video"
+      },
+      "16371649469b776b23": {
+        "settings": {
+          "layout": "right",
+          "image": "shopify:\/\/shop_images\/Rectangle_143_1.png",
+          "button_link": "shopify:\/\/collections\/category-sensuality",
+          "text": "<p>Our Essentially Feminine Range is designed to bring beauty, light and well-being, so that you can enjoy yourself and find and enhance your feminine energy, harmony and balance as well as live joy and pleasure in a way that fills you with light. Discover which is perfect ally to enhance your sensuality. <\/p>",
+          "button_label": "Sensuality product",
+          "title": "Sensuality"
+        },
+        "type": "feature-row"
+      },
+      "1637164989cb8ea7be": {
+        "settings": {
+          "layout": "left",
+          "image": "shopify:\/\/shop_images\/Rectangle_143_2.png",
+          "button_link": "shopify:\/\/collections\/category-serenity",
+          "text": "<p>Our Essentially Feminine Range is designed to bring beauty, light and well-being, so that you can enjoy yourself and find and enhance your feminine energy, harmony and balance as well as live joy and pleasure in a way that fills you with light. Discover which is perfect ally to enhance your sensuality. <\/p>",
+          "button_label": "Serenity product",
+          "title": "Serenity"
+        },
+        "type": "feature-row"
+      },
+      "16375515878483e814": {
+        "settings": {
+          "space": 70
+        },
+        "type": "spacer"
+      },
+      "16375648993723f00d": {
+        "settings": {
+          "content_aligment": "center",
+          "paragraph": "<p>A collection of innovative formulas mixing<br\/>the finest organic and wild crafted oils,<br\/>butters and extracts from all over the world<\/p>",
+          "line_height": 80,
+          "font_size": 40,
+          "text_color": "#000000"
+        },
+        "type": "content-quote"
+      },
+      "collection": {
+        "settings": {
+          "show_vendor": true,
+          "grid": 3,
+          "collection": "all",
+          "title": "Serenity",
+          "rows": 1,
+          "show_view_all": false
+        },
+        "type": "collection"
+      },
+      "collection-template": {
+        "settings": {
+          "layout": "grid",
+          "tags_enable": true,
+          "show_vendor": false,
+          "grid": 4,
+          "show_collection_image": true,
+          "rows": 2,
+          "sort_enable": true
+        },
+        "type": "collection-template"
+      },
+      "1637317350178be386": {
+        "settings": {
+          "space": 70
+        },
+        "type": "spacer"
+      },
+      "footer-new": {
+        "settings": {
+          "footer_social_title": "Titre social",
+          "logo_footer": "shopify:\/\/shop_images\/Mademoiselle.png",
+          "footer_menu_col_1": "footer",
+          "title_newsletter": "Newsletter subscription",
+          "footer_menu_col_2": "footer-second-menu"
+        },
+        "type": "footer-new"
+      },
+      "feature-row": {
+        "settings": {
+          "layout": "left",
+          "image": "shopify:\/\/shop_images\/Rectangle_143.png",
+          "button_link": "shopify:\/\/collections\/category-vitality",
+          "text": "<p>Stevia herb extract, pink pepper. Create a protective<br\/>barrier against bacteria.Reduce wrinkles, regenerate cells. Combats external influences and signs of skin fatigue.<br\/>Minimizes appearance of fine lines, leaving you smoother,<br\/>more refined complexion with visibly restored luminosity<\/p>",
+          "button_label": "Vitality product",
+          "title": "Vitality"
+        },
+        "type": "feature-row"
+      },
+      "image-bar": {
+        "settings": {
+          "section_height": "medium"
+        },
+        "blocks": {
+          "image-bar-2": {
+            "settings": {
+              "cta_label": "",
+              "link": "",
+              "alignment": "center"
+            },
+            "type": "image"
+          },
+          "image-bar-1": {
+            "settings": {
+              "cta_label": "",
+              "link": "",
+              "alignment": "center"
+            },
+            "type": "image"
+          },
+          "image-bar-0": {
+            "settings": {
+              "cta_label": "",
+              "link": "",
+              "alignment": "center"
+            },
+            "type": "image"
+          }
+        },
+        "type": "image-bar",
+        "block_order": [
+          "image-bar-0",
+          "image-bar-1",
+          "image-bar-2"
+        ]
+      },
+      "163755160539f1d9a3": {
+        "settings": {
+          "space": 70
+        },
+        "type": "spacer"
+      },
+      "header": {
+        "settings": {
+          "message_text": "Announce something here",
+          "color_bg": "#3a3a3a",
+          "message_link": "",
+          "align_logo": "center",
+          "logo_max_width": 110,
+          "color_text": "#ffffff",
+          "logo": "shopify:\/\/shop_images\/Mademoiselle.png",
+          "home_page_only": true,
+          "message": false,
+          "main_linklist": "main-menu"
+        },
+        "type": "header"
+      },
+      "product-recommendations": {
+        "settings": {
+          "show_vendor": false,
+          "show_product_recommendations": true,
+          "heading": "You may also like"
+        },
+        "type": "product-recommendations"
+      },
+      "feature-columns": {
+        "settings": {
+          "align_text": "left",
+          "title": ""
+        },
+        "blocks": {
+          "feature-columns-2": {
+            "settings": {
+              "enable_image": true,
+              "button_link": "",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": "",
+              "title": "Add a title or tagline"
+            },
+            "type": "text_block"
+          },
+          "feature-columns-1": {
+            "settings": {
+              "enable_image": true,
+              "button_link": "",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": "",
+              "title": "Add a title or tagline"
+            },
+            "type": "text_block"
+          },
+          "feature-columns-0": {
+            "settings": {
+              "enable_image": true,
+              "button_link": "",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": "",
+              "title": "Add a title or tagline"
+            },
+            "type": "text_block"
+          }
+        },
+        "type": "feature-columns",
+        "block_order": [
+          "feature-columns-0",
+          "feature-columns-1",
+          "feature-columns-2"
+        ]
+      },
+      "collection-template-new": {
+        "settings": {
+          "layout": "grid",
+          "tags_enable": true,
+          "show_vendor": false,
+          "des_hight_product": "Here’s some of our most popular products people are in love with.",
+          "grid": 4,
+          "show_collection_image": true,
+          "title_hight_product": "Hight Product",
+          "rows": 2,
+          "load_more_pagination": "load_more",
+          "sort_enable": true
+        },
+        "type": "collection-template-new"
+      }
+    },
+    "mlvedaACS_positionRight": "10px",
+    "content_for_index": [
+      "1637076259afa2ee8d",
+      "feature-row",
+      "16375515878483e814",
+      "16371649469b776b23",
+      "1637317350178be386",
+      "1637164989cb8ea7be",
+      "163755160539f1d9a3",
+      "1637314214290d0a41",
+      "1637565827218e6c23",
+      "16375648993723f00d",
+      "1637551880d50bf0fd",
+      "1637160127313c807a",
+      "16375742795226ecd3",
+      "16375795075897c9d4",
+      "1637211602e2518dc1"
+    ],
+    "type_base_size": 15,
+    "color_image_overlay": "#685858",
+    "color_text_field_border": "#cccccc",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "medium",
+    "mlvedaACS_borderLook": false,
+    "color_text_field": "#ffffff",
+    "checkout_button_color": "#000000",
+    "type_header_font": "helvetica_n4",
+    "social_twitter_link": "https:\/\/twitter.com\/shopify",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Mademoiselle.png",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_input_background_color_mode": "white",
+    "mlvedaACS_positionLeft": "10px",
+    "mlvedaACS_defaultCurrency": "VND",
+    "mlvedaACS_textColor": "inherit",
+    "mlvedaACS_flagStyle": "circle",
+    "social_pinterest_link": "",
+    "mlvedaACS_isMessageDisplay": true,
+    "mlvedaACS_positionBottom": "10px",
+    "color_body_text": "#000000",
+    "mlvedaACS_messageBackgroundColor": "inherit",
+    "color_text": "#000000",
+    "checkout_error_color": "#e22120",
+    "mlvedaACS_roundDecimalValue": 1,
+    "mlvedaACS_backgroundColor": "inherit",
+    "mlvedaACS_position": "top_with_right",
+    "image_overlay_opacity": 40,
+    "mlvedaACS_messageColor": "inherit",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "mlvedaACS_textHoverColor": "inherit",
+    "favicon": "shopify:\/\/shop_images\/logo.png",
+    "mlvedaACS_enable": false,
+    "social_facebook_link": "https:\/\/facebook.com\/shopify",
+    "mlvedaACS_supportedCurrencies": "USD VND EUR",
+    "type_base_font": "helvetica_n4",
+    "mlvedaACS_hideDecimal": false,
+    "color_body_bg": "#ffffff",
+    "mlvedaACS_hoverBackgroundColor": "inherit",
+    "mlvedaACS_currencyFormat": "money_with_currency_format",
+    "mlvedaACS_borderLineColor": "inherit",
+    "color_image_overlay_text": "#ffffff",
+    "mlvedaACS_displayFlag": false,
+    "color_borders": "#ebebeb"
+  },
+  "presets": {
+    "Light": {
+      "checkout_body_font": "Source Sans Pro",
+      "social_youtube_link": "",
+      "type_header_base_size": 26,
+      "share_twitter": true,
+      "checkout_sidebar_background_color": "#e8f3f6",
+      "color_small_button_text_border": "#162950",
+      "checkout_input_background_color_mode": "white",
+      "social_pinterest_link": "",
+      "color_button": "#DA2F0C",
+      "color_body_text": "#6d6d6d",
+      "checkout_header_image": "",
+      "color_text": "#162950",
+      "social_instagram_link": "",
+      "checkout_error_color": "#ff6d6d",
+      "social_tumblr_link": "",
+      "checkout_body_background_color": "#ffffff",
+      "color_text_field_text": "#162950",
+      "checkout_sidebar_background_image": "",
+      "image_overlay_opacity": 40,
+      "checkout_heading_font": "Roboto",
+      "share_facebook": true,
+      "favicon": "",
+      "social_facebook_link": "",
+      "social_vimeo_link": "",
+      "checkout_accent_color": "#1990c6",
+      "color_sale_text": "#DA2F0C",
+      "color_button_text": "#ffffff",
+      "share_pinterest": true,
+      "checkout_body_background_image": "",
+      "type_base_font": "muli_n4",
+      "sections": {
+        "footer": {
+          "settings": {
+            "color_footer_bg": "#f8f8f8",
+            "color_footer_text": "#6d6d6d"
+          },
+          "blocks": {
+            "newsletter": {
+              "settings": {
+              },
+              "type": "newsletter"
+            },
+            "link_list": {
+              "settings": {
+              },
+              "type": "link_list"
+            },
+            "text": {
+              "settings": {
+              },
+              "type": "text"
+            }
+          },
+          "type": "footer",
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ]
+        },
+        "hero": {
+          "settings": {
+            "hero_size": "x-large",
+            "text_size": "large",
+            "alignment": "center"
+          },
+          "type": "hero"
+        },
+        "featured-collections": {
+          "settings": {
+            "show_vendor": true,
+            "grid": 3,
+            "rows": 1,
+            "show_view_all": true
+          },
+          "type": "collection"
+        },
+        "1492033809691": {
+          "settings": {
+          },
+          "type": "map"
+        },
+        "collection-template": {
+          "settings": {
+            "layout": "grid",
+            "tags_enable": true,
+            "show_vendor": false,
+            "grid": 2,
+            "show_collection_image": true,
+            "rows": 2,
+            "sort_enable": true
+          },
+          "type": "collection-template"
+        },
+        "1492033924902": {
+          "settings": {
+            "title": ""
+          },
+          "blocks": {
+            "1492033924902-0": {
+              "settings": {
+                "align_text": "center",
+                "width": "100%",
+                "alignment": "center"
+              },
+              "type": "text"
+            }
+          },
+          "type": "custom-content",
+          "block_order": [
+            "1492033924902-0"
+          ]
+        },
+        "article-template": {
+          "settings": {
+            "show_share_buttons": true,
+            "blog_show_date": true,
+            "blog_show_author": true
+          },
+          "type": "article-template"
+        },
+        "product-template": {
+          "settings": {
+            "enable_video_looping": false,
+            "show_vendor": false,
+            "media_size": "medium",
+            "show_share_buttons": true,
+            "enable_image_zoom": true,
+            "show_quantity_selector": false
+          },
+          "type": "product-template"
+        },
+        "blog-template": {
+          "settings": {
+            "layout": "grid",
+            "blog_show_date": false,
+            "blog_show_author": true
+          },
+          "type": "blog-template"
+        },
+        "header": {
+          "settings": {
+            "color_bg": "#162950",
+            "align_logo": "left",
+            "logo_max_width": 135,
+            "color_text": "#ffffff",
+            "logo": "",
+            "message": true,
+            "main_linklist": "main-menu"
+          },
+          "type": "header"
+        },
+        "slideshow": {
+          "settings": {
+            "text_size": "medium",
+            "autorotate": false,
+            "autorotate_speed": 5,
+            "slideshow_height": "medium"
+          },
+          "blocks": {
+            "1492095993817": {
+              "settings": {
+                "image": "",
+                "alignment": "center"
+              },
+              "type": "image"
+            },
+            "slideshow-0": {
+              "settings": {
+                "image": "",
+                "alignment": "center center"
+              },
+              "type": "image"
+            }
+          },
+          "type": "slideshow",
+          "block_order": [
+            "slideshow-0",
+            "1492095993817"
+          ]
+        },
+        "1492096252560": {
+          "settings": {
+            "grid": 3
+          },
+          "blocks": {
+            "1492096252560-1": {
+              "settings": {
+              },
+              "type": "featured_collection"
+            },
+            "1492096252560-0": {
+              "settings": {
+              },
+              "type": "featured_collection"
+            },
+            "1492096252560-2": {
+              "settings": {
+              },
+              "type": "featured_collection"
+            }
+          },
+          "type": "collection-list",
+          "block_order": [
+            "1492096252560-0",
+            "1492096252560-1",
+            "1492096252560-2"
+          ]
+        },
+        "cart-template": {
+          "settings": {
+            "cart_notes_enable": false
+          },
+          "type": "cart-template"
+        },
+        "1492033877875": {
+          "settings": {
+          },
+          "blocks": {
+            "1492033877875-0": {
+              "settings": {
+              },
+              "type": "quote"
+            }
+          },
+          "type": "quotes",
+          "block_order": [
+            "1492033877875-0"
+          ]
+        }
+      },
+      "social_snapchat_link": "",
+      "color_body_bg": "#f8f8f8",
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "slideshow",
+        "1492033924902",
+        "1492096252560",
+        "1492033877875",
+        "1492033809691"
+      ],
+      "type_base_size": 18,
+      "color_image_overlay_text": "#ffffff",
+      "color_image_overlay": "#3d3d3d",
+      "color_text_field_border": "#909090",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "color_borders": "#e4e4e4",
+      "color_text_field": "#ffffff",
+      "checkout_button_color": "#23314e",
+      "type_header_font": "muli_n6",
+      "social_twitter_link": "",
+      "checkout_logo_image": ""
+    },
+    "Default": {
+      "content_for_index": [
+        "hero-1",
+        "feature-row",
+        "feature-columns",
+        "collection",
+        "hero-2",
+        "quotes",
+        "image-bar"
+      ],
+      "sections": {
+        "hero-1": {
+          "settings": {
+            "hero_size": "large",
+            "text_size": "large"
+          },
+          "type": "hero"
+        },
+        "hero-2": {
+          "settings": {
+            "text_size": "large"
+          },
+          "type": "hero"
+        },
+        "feature-row": {
+          "settings": {
+          },
+          "type": "feature-row"
+        },
+        "footer": {
+          "settings": {
+            "show_payment_icons": true
+          },
+          "blocks": {
+            "footer-1": {
+              "settings": {
+              },
+              "type": "newsletter"
+            },
+            "footer-0": {
+              "settings": {
+              },
+              "type": "link_list"
+            }
+          },
+          "type": "footer",
+          "block_order": [
+            "footer-0",
+            "footer-1"
+          ]
+        },
+        "image-bar": {
+          "settings": {
+          },
+          "blocks": {
+            "image-bar-2": {
+              "settings": {
+              },
+              "type": "image"
+            },
+            "image-bar-1": {
+              "settings": {
+              },
+              "type": "image"
+            },
+            "image-bar-0": {
+              "settings": {
+              },
+              "type": "image"
+            }
+          },
+          "type": "image-bar",
+          "block_order": [
+            "image-bar-0",
+            "image-bar-1",
+            "image-bar-2"
+          ]
+        },
+        "header": {
+          "settings": {
+          },
+          "type": "header"
+        },
+        "collection": {
+          "settings": {
+            "grid": 4
+          },
+          "type": "collection"
+        },
+        "feature-columns": {
+          "settings": {
+            "title": ""
+          },
+          "blocks": {
+            "feature-columns-2": {
+              "settings": {
+              },
+              "type": "text_block"
+            },
+            "feature-columns-1": {
+              "settings": {
+              },
+              "type": "text_block"
+            },
+            "feature-columns-0": {
+              "settings": {
+              },
+              "type": "text_block"
+            }
+          },
+          "type": "feature-columns",
+          "block_order": [
+            "feature-columns-0",
+            "feature-columns-1",
+            "feature-columns-2"
+          ]
+        },
+        "quotes": {
+          "settings": {
+            "title": ""
+          },
+          "blocks": {
+            "quotes-0": {
+              "settings": {
+              },
+              "type": "quote"
+            },
+            "quotes-1": {
+              "settings": {
+              },
+              "type": "quote"
+            },
+            "quotes-2": {
+              "settings": {
+              },
+              "type": "quote"
+            }
+          },
+          "type": "quotes",
+          "block_order": [
+            "quotes-0",
+            "quotes-1",
+            "quotes-2"
+          ]
+        }
+      }
+    }
+  }
+}

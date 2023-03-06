@@ -1,0 +1,130 @@
+
+.tl-switcher {
+  position: relative;
+  z-index: 9999;
+}
+
+.tl-switcher form {
+  margin: 0;
+}
+
+.tl-switcher.desktop {
+  display: inline-flex;
+  align-items: center;
+}
+.tl-switcher.mobile {
+  display: inline-block;
+}
+
+.tl-select {
+  display: flex;
+  align-items: center;
+  column-gap: 7px;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 3px;
+  padding: 8px 10px;
+  text-align: left;
+  font-size: 14px;
+  line-height: normal;
+  text-transform: capitalize;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.tl-select:after {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin: 0 5px 0 auto;
+  border-width: 0 1px 1px 0;
+  border-style: solid;
+  border-color: #000;
+  opacity: 0.9;
+  transform: rotate(45deg) translate(0, -40%);
+  transition: 0.3s ease;
+}
+.tl-select.open:after {
+  transform: rotate(-135deg) translate(-2px, 0);
+}
+.tl-flag {
+  width: 18px;
+  max-width: none;
+  border-radius: 1px;
+  vertical-align: middle;
+  transition: 0.2s ease;
+}
+.tl-label {
+  display: inline-block;
+  vertical-align: middle;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+.tl-name {
+  text-transform: capitalize;
+}
+.tl-code {
+  text-transform: uppercase;
+}
+
+.tl-options {
+  display: none;
+  list-style: none;
+  position: absolute;
+  bottom: auto;
+  top: 100%;
+  left: 0px;
+  z-index: 1;
+  min-width: 100%;
+  margin: 0px 0px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px 1px rgba(0,0,0,.15);
+  overflow-y: auto;
+  background-color: #fff;
+  padding: 6px 1px;
+  text-align: left;
+  font-size: 14px;
+  line-height: normal;
+  font-weight: normal;
+}
+.tl-options.open {
+  display: block;
+}
+.tl-option {
+  display: flex;
+  align-items: center;
+  column-gap: 7px;
+  padding: 5px 10px;
+  white-space: nowrap;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.tl-option:before,
+.tl-option:after {
+  content: none !important;
+}
+.tl-option:hover img {
+  opacity: 0.75;
+}/* -------- Debut Theme Styles -------- */
+.mobile-nav-wrapper {
+    z-index: 10;
+}
+
+.tl-switcher.mobile .tl-select {
+    margin: 12px 20px;
+}
+
+.tl-switcher.mobile .tl-options {
+    margin-left: 20px;
+    position: relative;
+    box-shadow: none;
+    padding-top: 0;
+    margin-bottom: 1px;
+    border-top: 1px solid #ccc;
+}
+
+@media screen and (max-width: 749px) {
+    .tl-switcher.desktop {
+        display: none;
+    }
+}

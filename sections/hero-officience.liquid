@@ -1,0 +1,60 @@
+<!-- Hero banner custoom by officience -->
+<div class="officience-hero">
+  <div class="page-width">
+    {% if section.settings.officience_banner_heading != blank %}
+    <h1>{{section.settings.officience_banner_heading}}</h1>
+    {% endif %}
+    {% if section.settings.officience_banner_des != blank %}
+    <div class="description wow fadeInUp" data-wow-delay="0.2s">
+      <p>{{section.settings.officience_banner_des}}</p>
+    </div>
+    {% endif %}
+    {% if section.settings.Officience_banner_button_link != blank %}
+    <div class="button-link wow fadeInUp" data-wow-delay="0.4s">
+      <a class="text-link" href="{{section.settings.Officience_banner_button_link}}">{{section.settings.Officience_banner_button_text}}</a>
+      <a class="icon-link" href="{{section.settings.Officience_banner_button_link}}"><img src="{{ 'arrow-right.png' | asset_url }}"></a>
+    </div>
+    {% endif %}
+  </div>
+</div>
+<!-- End hero banner custoom by officience -->
+{% schema %}
+  {
+    "name": {
+		"en":"Officience Hero Banner",
+		"fr": "Officience Bannière de héros"
+	},
+    "settings": [
+		{
+          "type": "text",
+          "id": "officience_banner_heading",
+          "label": "Heading",
+          "default": "Officience Hero Banner"
+        },
+        {
+          "type": "textarea",
+          "id": "officience_banner_des",
+          "label": "Welcome message",
+          "default": "Welcome to my shop!"
+        },
+		{
+          "type": "text",
+          "id": "Officience_banner_button_text",
+          "label": "Button text"
+        },
+        {
+          "type": "url",
+          "id": "Officience_banner_button_link",
+          "label": "Button link"
+        }
+	],
+	"presets": [
+       {
+        "name": {
+		   "en":"Officience Hero Banner",
+		   "fr": "Officience Bannière de héros"
+		}
+       }
+	]
+  }
+{% endschema %}

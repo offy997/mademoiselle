@@ -1,0 +1,84 @@
+<div class="contact-template">
+    <div class="title-contact section-header text-center">
+    <h1>{{ page.title }}</h1>
+  </div>
+  {% if page.metafields.banner-contact.pages != _blank %}
+    <div class="banner-contact">
+      <img src ="{{page.metafields.banner-contact.pages}}" />
+    </div>
+  {% endif %}
+  <div class="page-width">
+    <div class="grid">
+      <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
+        {% if page.content.size > 0 %}
+          <div class="rte">
+            {{ page.content }}
+          </div>
+        {% endif %}
+
+        <div class="contact-form form-vertical">
+          {%- assign formId = 'ContactForm' -%}
+          {% form 'contact', id: formId %}
+            {% include 'form-status', form: form, form_id: formId %}
+
+            <div class="grid grid--half-gutters">
+              <div class="grid__item medium-up--one-half">
+                <label for="{{ formId }}-name">{{ 'contact.form.name' | t }} <span aria-hidden="true" style="color:red">*</span></label>
+                <input type="text" required="required" id="{{ formId }}-name" name="contact[{{ 'contact.form.name' | t }}]" value="{% if form[name] %}{{ form[name] }}{% elsif customer %}{{ customer.name }}{% endif %}">
+              </div>
+              <div class="grid__item medium-up--one-half" style="position: relative">
+                <label for="{{ formId }}-email">{{ 'contact.form.email' | t }} <span aria-hidden="true" style="color:red">*</span></label>
+                <div style="position: relative;">
+                <input
+                  type="email"
+                  id="{{ formId }}-email"
+                  name="contact[email]"
+                  autocorrect="off"
+                  autocapitalize="off"
+                  value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+                  aria-required="true"
+                  required="required"
+                  {%- if form.errors contains 'email' -%}
+                    class="input--error"
+                    aria-invalid="true"
+                    aria-describedby="{{ formId }}-email-error"
+                  {%- endif -%}
+                  >
+                </div>
+                {%- if form.errors contains 'email' -%}
+                  <span id="{{ formId}}-email-error" class="input-error-message">
+                    <span class="visually-hidden">{{ 'general.accessibility.error' | t }} </span>
+                    {% include 'icon-error' %}
+                    <span>{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}.</span>
+                  </span>
+                {%- endif -%}
+              </div>
+            </div>
+
+            <label for="{{ formId }}-phone">{{ 'contact.form.phone' | t }} </label>
+          <div style="position:relative">
+            <input type="tel" id="{{ formId }}-phone" placeholder="Format: 012345789" name="contact[{{ 'contact.form.phone' | t }}]"
+            value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{ customer.phone }}{% endif %}">
+          </div>
+            <label for="{{ formId }}-message">{{ 'contact.form.message' | t }} <span aria-hidden="true" style="color:red">*</span></label>
+            <textarea style="resize: none;" required="required" rows="10" id="{{ formId }}-message" name="contact[{{ 'contact.form.message' | t }}]">{% if form.body %}{{ form.body }}{% endif %}</textarea>
+
+            <input type="submit"  class="btn" value="{{ 'contact.form.submit' | t }}">
+
+          {% endform %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="gg-map">
+    <div class="item">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12611.791213562496!2d-122.392015!3d37.791263!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580653d8de9ad%3A0x35bb494d84aa93e7!2s201%20Spear%20St%201100%203169%2C%20San%20Francisco%2C%20CA%2094105!5e0!3m2!1sen!2sus!4v1645438145516!5m2!1sen!2sus" height="350" style="border:0;width:100%;" allowfullscreen="" loading="lazy"></iframe>
+    </div>          
+    <div class="item">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10497.967305567734!2d2.34975!3d48.8679!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e173dbf2821%3A0x5a99d9818037f072!2s36%20Rue%20du%20Caire%2C%2075002%20Paris%2C%20France!5e0!3m2!1sen!2sus!4v1645438229593!5m2!1sen!2sus" height="350" style="border:0; width: 100%" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="item">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15677.92734784489!2d106.670802!3d10.77436!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf49973030574f2c2!2sQueen%20Plaza%20Ky%20Hoa!5e0!3m2!1sen!2sus!4v1645438279126!5m2!1sen!2sus" height="350" style="border:0; width:100%" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </div>
+</div>

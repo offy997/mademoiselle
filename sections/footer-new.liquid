@@ -1,0 +1,163 @@
+{%- assign social_icons = false -%}
+{%- if
+  settings.social_twitter_link != blank
+  or settings.social_facebook_link != blank
+  or settings.social_pinterest_link != blank
+  or settings.social_instagram_link != blank
+  or settings.social_tumblr_link != blank
+  or settings.social_snapchat_link != blank
+  or settings.social_youtube_link != blank
+  or settings.social_vimeo_link != blank
+-%}
+  {%- assign social_icons = true -%}
+{%- endif -%}
+{%- assign socials = "Facebook Twitter Pinterest Instagram Tumblr Snapchat YouTube Vimeo" | split: ' ' -%}
+<footer class="site-footer-new site-footer" id="footer-officience">
+  <div class="footer-top page-width">
+    <div class="footer-item">
+      {% if section.settings.logo_footer %}
+        <div class="logo-footer">
+          <a href="{{ routes.root_url }}">
+          <img src={{section.settings.logo_footer | img_url:'4472x4472'}}>
+          </a>
+        </div>
+      {% endif %}
+       <div class="site-footer__newsletter">
+         <h4 class="title-footer title-newsletter">{{section.settings.title_newsletter}}</h4>
+         {%- assign formId = 'ContactFooter' -%}
+         {% form 'customer', id: formId, novalidate: 'novalidate' %}
+           {%- if form.posted_successfully? -%}
+             <p class="form-message form-message--success" tabindex="-1" data-form-status>
+               {{ 'general.newsletter_form.confirmation' | t }}
+             </p>
+           {%- endif -%}
+           <input type="hidden" name="contact[tags]" value="newsletter">
+           <div class="input-group {% if form.errors %} input-group--error{% endif %}" style="position: relative;">
+             <input type="email"
+                    name="contact[email]"
+                    id="{{ formId }}-email"
+                    class="input-group__field newsletter__input{% if form.errors %} input--error{% endif %}"
+                    value="{{ form.email }}"
+                    placeholder="example@domain.com"
+                    aria-label="{{ 'general.newsletter_form.email_placeholder' | t }}"
+                    aria-required="true"
+                    autocorrect="off"
+                    required="required"
+                    autocapitalize="off"
+                    {% if form.errors %}
+                      aria-invalid="true"
+                      aria-describedby="{{ formId }}-email-error"
+                      data-form-status
+                    {% endif %}>
+             
+             <span class="input-group__btn">
+               <button type="submit" class="btn newsletter__submit" name="commit" >
+                 <span class="newsletter__submit-text--large">{{ 'general.newsletter_form.submit' | t }}</span>
+               </button>
+             </span>
+           </div>
+           {% if form.errors contains 'email' %}
+             <span id="{{ formId }}-email-error" class="input-error-message">
+               <span class="visually-hidden">{{ 'general.accessibility.error' | t }} </span>
+               {% include 'icon-error' %}
+               <span class="site-footer__newsletter-error">{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}.</span>
+             </span>
+           {% endif %}
+         {% endform %}
+      </div>
+    </div>
+    <div class="footer-item footer-link-col-1">
+      {%- assign footer_linklist_1 = section.settings.footer_menu_col_1 -%}
+      <ul class="site-footer__linklist">
+        {%- for link in linklists[footer_linklist_1].links -%}
+        <li class="site-footer__linklist-item">
+          <a href="{{ link.url }}"
+             {% if link.current %} aria-current="page"{% endif %}
+             >
+            {{ link.title | escape }}
+          </a>
+        </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+    <div class="footer-item footer-link-col-2">
+      {%- assign footer_linklist_2 = section.settings.footer_menu_col_2 -%}
+      <ul class="site-footer__linklist">
+        {%- for link in linklists[footer_linklist_2].links -%}
+        <li class="site-footer__linklist-item">
+          <a href="{{ link.url }}"
+             {% if link.current %} aria-current="page"{% endif %}
+             >
+            {{ link.title | escape }}
+          </a>
+        </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+    <div class="footer-item">
+      <h4 class="title-footer title-social">{{section.settings.footer_social_title}}</h4>
+        {%- if social_icons -%}
+          <ul class="list--inline site-footer__social-icons social-icons site-footer__icon-list">
+            {%- for social in socials -%}
+              {%- assign social_link = social | prepend: 'social_' | append: '_link' | downcase -%}
+              {%- assign icon_link = social | prepend: 'icon-' | downcase -%}
+              {%- if settings[social_link] != blank -%}
+                <li class="social-icons__item">
+                  <a class="social-icons__link" href="{{ settings[social_link] | escape }}" target="_blank" aria-describedby="a11y-external-message">
+                    {%- include icon_link -%}
+                    <span class="icon__fallback-text">{{ social }}</span>
+                  </a>
+                </li>
+              {%- endif -%}
+            {%- endfor -%}
+          </ul>
+        {%- endif -%}
+      </div>
+    </div>
+  <div class="footer-copyright page-width">Copyright © 2021 Mademoiselle. All rights reserved</div>
+</footer>
+{% schema %}
+  {
+    "name": "Officience footer",
+    "settings": [
+		{
+          "type": "image_picker",
+          "id": "logo_footer",
+          "label": "Logo footer"
+        },
+		{
+          "type": "text",
+          "id": "title_newsletter",
+          "label": "Newsletter title",
+          "default": "Newsletter title"
+        },
+        {
+          "type": "link_list",
+          "id": "footer_menu_col_1",
+          "label": "Footer menu 1"
+        },
+		{
+          "type": "link_list",
+          "id": "footer_menu_col_2",
+          "label": "Footer menu 2"
+        },
+ 		{
+          "type": "text",
+          "id": "footer_social_title",
+          "label": "Heading",
+          "default": "Social title"
+        }
+    ],
+    "presets": [
+       {
+        "name": "Officience Footer"
+       }
+  	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

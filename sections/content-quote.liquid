@@ -1,0 +1,75 @@
+<div class="section-content-quote page-width wow fadeInUp" data-wow-delay="0.2s" style="
+            font-size:{{section.settings.font_size}}px;
+            line-height: {{section.settings.line_height}}px;
+            color: {{section.settings.text_color}};
+            text-align: {{section.settings.content_aligment}};
+">{{section.settings.paragraph}}</div>
+{% schema %}
+  {
+    "name": "Content quote",
+    "settings": [
+		{
+          "type": "range",
+          "id": "font_size",
+          "min": 12,
+          "max": 50,
+          "step": 1,
+          "unit": "px",
+          "label": "Font size",
+          "default": 20
+        },
+		{
+          "type": "range",
+          "id": "line_height",
+          "min": 30,
+          "max": 200,
+          "step": 2,
+          "unit": "px",
+          "label": "Line height",
+          "default": 30
+        },
+		{
+          "type": "radio",
+          "id": "content_aligment",
+          "label": "Content alignment",
+          "options": [
+            {
+              "value": "right",
+              "label": "Right"
+            },
+			{
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            }
+          ],
+          "default": "left"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Body text",
+          "default": "#000000"
+      	},
+        {
+          "type": "richtext",
+          "id": "paragraph",
+          "label": "Paragraph"
+        }
+	],
+     "presets": [
+       {
+        "name": "Content quote"
+       }
+  	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

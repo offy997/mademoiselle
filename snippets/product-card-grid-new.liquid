@@ -1,0 +1,21 @@
+<div class="box-slider-collection">
+   {% capture img_id %}ProductCardImage-{{ section.id }}-{{ product.id }}{% endcapture %}
+   {% capture wrapper_id %}ProductCardImageWrapper-{{ section.id }}-{{ product.id }}{% endcapture %}
+   {%- assign preview_image = product.featured_media.preview_image -%}
+  {%- assign img_url = preview_image | img_url: '1x1' | replace: '_1x1.', '_345x345@2x.' -%}
+  
+  <div class="cont-img" style="margin-bottom: 15px">
+    <a class="slider-link-pro" href="{{ product.url }}" title="{{ product.title }}">
+      <img style="width:100%" src="{{img_url}}" alt="{{ preview_image.alt }}">
+    </a>
+  </div>
+  <div class="cont-text-slider">
+    <div class="ttl-link">
+      <a class="slider-link-pro" style="text-align:center" href="{{ product.url }}" title="{{ product.title }}">{{ product.title }}</a>
+    </div>
+     <div class="description-list" style="text-align: center">
+      <p>{{product.metafields.my_fields.excerpt}}</p>
+    </div>
+    <div class="price" style="text-align:center">{% include 'product-price-listing', product: product, show_vendor: show_vendor %}</div>
+  </div>
+</div>

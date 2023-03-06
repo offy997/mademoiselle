@@ -1,0 +1,352 @@
+{%- if settings.header_language_switcher_enabled %}
+
+{%- liquid
+
+assign current_language = localization.language
+
+assign localization_available_languages = localization.available_languages
+assign use_international_domains = false
+
+if shop.metafields.translation_lab.published_locales
+    assign localization_available_languages = shop.metafields.translation_lab.published_locales
+    assign use_international_domains = true
+endif
+
+assign flag_images_path = 'https://shopify-script-tags.s3.eu-west-1.amazonaws.com/tlab-svg-flags/[country-code].svg'
+assign country_code_placeholder = '[country-code]'
+
+assign language_to_country_custom_mapping = settings.tl_sw_language_country_mapping | split: ','
+
+assign language_to_country_mapping = shop.metafields.translation_lab.language_country.value
+
+assign div_wrapper = false
+assign li_wrapper = false
+
+-%}
+
+{%- capture langList -%}
+[{%- for language in localization_available_languages %}{
+"name": "{{language.name | split: "(" | first | strip}}",
+"endonym_name": "{{ language.endonym_name | split: "(" | first | strip}}",
+"iso_code": "{{ language.iso_code }}",
+"display_code": "{{ language.iso_code | replace: replace1, replace2 }}",
+"primary": {{ language.primary }},
+{%- assign language_flag_code = language_to_country_mapping[language.iso_code] | downcase -%}
+{%- for mapping in language_to_country_custom_mapping -%}
+{%- assign parts = mapping | split: ':' -%}
+{%- if parts.size == 2 and parts[0] == language.iso_code -%}
+{%- assign language_flag_code = parts[1] | downcase -%}
+{%- break -%}
+{%- endif -%}
+{%- endfor -%}
+"flag": "{{ flag_images_path | replace: country_code_placeholder, language_flag_code }}",
+"domain": {{ language.domain | json }},
+"root_url": {{ language.root_url | json }}
+}{% unless forloop.last %},{% endunless -%}{%- endfor %}]
+{%- endcapture -%}
+
+{{ 'translation-lab-language-dropdown.css' | asset_url | stylesheet_tag }}
+
+{%- if div_node -%}
+<div class="{{ div_node }}">
+{%- assign div_wrapper = true %}
+{%- elsif list_item -%}
+<li class="{{ list_item }}">
+{%- assign li_wrapper = true %}
+{%- endif %}
+
+<div class="tl-switcher {{ responsive }}" data-test="{{language_to_country_custom_mapping}}">
+    {%- form 'localization', class: 'tlab-localization' -%}
+    <div class="tl-select">
+        {%- if settings.header_language_switcher_flags -%}
+      	{%- assign current_language_flag_code = language_to_country_mapping[current_language.iso_code] | downcase -%}
+        {%- for mapping in language_to_country_custom_mapping -%}
+        {%- assign parts = mapping | split: ':' -%}
+        {%- if parts.size == 2 and parts[0] == current_language.iso_code -%}
+      	{%- assign current_language_flag_code = parts[1] | downcase -%}
+        {%- break -%}
+        {%- endif -%}
+        {%- endfor -%}
+        <img class="tl-flag" src="{{ flag_images_path | replace: country_code_placeholder, current_language_flag_code }}">
+        {%- endif -%}
+        {%- case settings.header_language_switcher_label -%}
+        {%- when 'auto' %}
+        <span class="tl-label tl-name">{{ current_language.endonym_name | split: '(' | first | strip }}</span>
+        <span class="tl-label tl-code tl-mobile">{{ current_language.iso_code | split: '-' | first | strip }}</span>
+        {%- when 'language-name' %}
+        <span class="tl-label tl-name">{{ current_language.endonym_name | split: '(' | first | strip }}</span>
+        {%- when 'language-code' %}
+        <span class="tl-label tl-code">{{ current_language.iso_code | split: '-' | first | strip }}</span>
+        {%- endcase %}
+    </div>
+    <ul class="tl-options">
+        {%- for language in localization_available_languages -%}
+        <li class="tl-option {% if language.iso_code == current_language.iso_code %}active{% endif %}" data-language-code="{{ language.iso_code }}">
+            {%- if settings.header_language_switcher_flags %}
+            {%- assign language_flag_code = language_to_country_mapping[language.iso_code] | downcase -%}
+            {%- for mapping in language_to_country_custom_mapping -%}
+            {%- assign parts = mapping | split: ':' -%}
+            {%- if parts.size == 2 and parts[0] == language.iso_code -%}
+            {%- assign language_flag_code = parts[1] | downcase -%}
+            {%- break -%}
+            {%- endif -%}
+            {%- endfor -%}
+            <img class="tl-flag" src="{{ flag_images_path | replace: country_code_placeholder, language_flag_code }}">
+            {%- endif -%}
+            {%- case settings.header_language_switcher_label -%}
+            {%- when 'auto' %}
+            <span class="tl-label tl-name">{{ language.endonym_name | split: '(' | first | strip }}</span>
+            <span class="tl-label tl-code tl-mobile">{{ language.iso_code | split: '-' | first | strip }}</span>
+            {%- when 'language-name' %}
+            <span class="tl-label tl-name">{{ language.endonym_name | split: '(' | first | strip }}</span>
+            {%- when 'language-code' %}
+            <span class="tl-label tl-code">{{ language.iso_code | split: '-' | first | strip }}</span>
+            {%- endcase %}
+        </li>
+        {%- endfor %}
+    </ul>
+    <input type="hidden" name="language_code" value="{{ current_language.iso_code }}">
+    {%- endform -%}
+</div>
+
+{%- if request.design_mode -%}
+
+{%- endif %}
+
+<style>
+
+  {%- if settings.header_language_switcher_label == 'auto' %}
+
+  .tl-label.tl-mobile {
+    display: none !important; /*desktop*/
+  }
+
+  @media all and (max-width: 540px) {
+    .tl-label.tl-mobile {
+      display: inline-block !important; /*mobile*/
+    }
+    .tl-label:not(.tl-mobile) {
+      display: none !important; /*mobile*/
+    }
+  }
+
+  @media all and (max-width: 460px) {
+    .tl-flag {
+      display: none !important; /*mobile*/
+    }
+  }
+  {%- endif -%}
+
+  {%- if settings.header_language_switcher_custom_css != blank %}
+  {{- settings.header_language_switcher_custom_css -}}
+  {%- endif %}
+
+</style>
+
+<script>
+    if (!Array.prototype.find) {
+        Object.defineProperty(Array.prototype, 'find', {
+            value: function (predicate) {
+                if (this == null) {
+                    throw TypeError('"this" is null or not defined');
+                }
+
+                var o = Object(this);
+
+                var len = o.length >>> 0;
+
+                if (typeof predicate !== 'function') {
+                    throw TypeError('predicate must be a function');
+                }
+
+                var thisArg = arguments[1];
+
+                var k = 0;
+
+                while (k < len) {
+                    var kValue = o[k];
+                    if (predicate.call(thisArg, kValue, k, o)) {
+                        return kValue;
+                    }
+                    k++;
+                }
+
+                return undefined;
+            },
+            configurable: true,
+            writable: true
+        });
+    }
+
+    if (typeof window.TranslationLab === 'undefined') {
+        window.TranslationLab = {};
+    }
+
+    if (typeof TranslationLab.Helpers === 'undefined') {
+        TranslationLab.Helpers = {};
+    }
+
+    TranslationLab.Helpers.buildRedirectUrl = function (redirectLanguage, currentLocale, shopDomain, useInternationalDomains) {
+
+        if (!redirectLanguage)
+            return null;
+
+        if (!currentLocale)
+            return null;
+
+        var redirectLocaleLower = redirectLanguage.iso_code.toLowerCase();
+        var currentLocaleLower = currentLocale.toLowerCase();
+
+        if (currentLocaleLower === redirectLocaleLower)
+            return null;
+
+        var pathnameWithLocale = window.location.pathname;
+        var queryString = window.location.search || '';
+
+        var currentLocaleRegEx = new RegExp('^\/' + currentLocaleLower, "ig");
+        var pathname = pathnameWithLocale.replace(currentLocaleRegEx, '');
+
+        if (useInternationalDomains)
+            return 'https://' + redirectLanguage.domain + pathname + queryString;
+
+        if (redirectLanguage.root_url === '/')
+            return 'https://' + shopDomain + pathname + queryString;
+
+        return 'https://' + shopDomain + redirectLanguage.root_url + pathname + queryString;
+    }
+
+    if (typeof TranslationLab.Switcher === 'undefined') {
+        TranslationLab.Switcher = {};
+    }
+
+    TranslationLab.Switcher.configure = function (currentLocale, shopDomain, useInternationalDomains, languageList) {
+
+        function configureDropdown(container) {
+
+            var localStorageKey = 'translation-lab-lang';
+
+            var formSelector = '.tlab-localization';
+            var dropdownSelector = '.tl-select';
+            var languageLabelSelector = '.tl-label';
+            var languageFlagSelector = '.tl-flag';
+            var languageListSelector = '.tl-options';
+            var inputSelector = 'input[name="language_code"], input[name="country_code"]';
+
+            var dropdownElement = container.querySelector(dropdownSelector);
+            var languageLabelElement = dropdownElement.querySelector(languageLabelSelector);
+            var languageFlagElement = dropdownElement.querySelector(languageFlagSelector);
+            var languageListElement = container.querySelector(languageListSelector);
+            var formInputElement = container.querySelector(inputSelector);
+
+            var isOpen = false;
+
+            if (languageListElement && languageListElement.children) {
+                Array.prototype.forEach.call(languageListElement.children, function (li) {
+                    li.addEventListener('click', languageChangeHandler(li));
+                });
+            }
+
+            dropdownElement.addEventListener('click', function (event) {
+                event.preventDefault();
+                isOpen = !isOpen;
+                if (isOpen) {
+                    openDropdown();
+                } else {
+                    closeDropdown();
+                }
+            });
+
+            document.addEventListener('click', handleOutsideClick, false);
+
+            function handleOutsideClick(event) {
+                if (!isOpen || event.target === dropdownElement) {
+                    return;
+                }
+                var path = event.composedPath();
+                for (var i = 0; i < path.length; i++) {
+                    if (path[i] === dropdownElement) {
+                        return;
+                    }
+                }
+                closeDropdown();
+            }
+
+            function languageChangeHandler(element) {
+                var languageCode = element.dataset.languageCode;
+                var elementText = element.querySelector(languageLabelSelector).innerText;
+                var selectedLanguage = languageList.find(function (language) { return language.iso_code.toLowerCase() === languageCode.toLowerCase() });
+                return function () {
+                    event.preventDefault();
+                    closeDropdown();
+                    languageLabelElement.textContent = elementText;
+                    if (languageFlagElement) {
+                        languageFlagElement.src = selectedLanguage.flag;
+                    }
+
+                    localStorage.setItem(localStorageKey, selectedLanguage.iso_code);
+
+                    if (useInternationalDomains) {
+
+                        var redirectUrl = TranslationLab.Helpers.buildRedirectUrl(selectedLanguage, currentLocale, shopDomain, useInternationalDomains);
+                        redirectUrl && window.location.assign(redirectUrl);
+
+                    } else {
+
+                        var form = container.querySelector(formSelector);
+                        formInputElement.value = languageCode;
+                        if (form) {
+                            form.submit();
+                        }
+                    }
+                }
+            }
+
+            function openDropdown() {
+                isOpen = true;
+                dropdownElement.classList.add('open');
+                languageListElement.classList.add('open');
+            }
+
+            function closeDropdown() {
+                isOpen = false;
+                dropdownElement.classList.remove('open');
+                languageListElement.classList.remove('open');
+            }
+        }
+
+        var containers = document.querySelectorAll('.tl-switcher');
+        if (containers && containers.length) {
+            for (var i = 0; i < containers.length; i++) {
+                configureDropdown(containers[i]);
+            }
+        }
+    }
+</script>
+
+<script>
+
+    (function () {
+
+        var useInternationalDomains = {{ use_international_domains | json }};
+
+        var shopDomain = window.Shopify && window.Shopify.designMode
+            ? '{{shop.permanent_domain}}'
+            : '{{shop.domain}}';
+
+        var currentLocale = '{{current_language.iso_code}}';
+
+        var languageList = JSON.parse({{ langList | json }});
+
+        TranslationLab.Switcher.configure(currentLocale, shopDomain, useInternationalDomains, languageList);
+
+    })();
+
+</script>
+
+{%- if div_wrapper %}
+</div>
+{%- elsif _li_wrapper %}
+</li>
+{%- endif -%}
+
+{%- endif %}

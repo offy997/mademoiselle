@@ -463,7 +463,15 @@
     "mlvedaACS_borderLineColor": "inherit",
     "color_image_overlay_text": "#ffffff",
     "mlvedaACS_displayFlag": false,
-    "color_borders": "#ebebeb"
+    "color_borders": "#ebebeb",
+    "blocks": {
+      "12793297677437526120": {
+        "type": "shopify:\/\/apps\/content-translation\/blocks\/custom_translations\/b5b83690-efd4-434d-8c6a-a5cef4019faf",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Light": {

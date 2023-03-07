@@ -575,6 +575,7 @@ function validateEmail() {
   }
   
   $('.template-product .product-form__item.product-form__item--submit button[type="submit"]').removeAttr('disabled');  
+  $('.template-customers-reset_password input[type="submit"]).removeAttr('disabled');  
   $('.template-cart input[type="submit"]').removeAttr('disabled');
   $('.shopify-challenge__button.btn').removeAttr('disabled');
   $('.rush-block').removeAttr('disabled');

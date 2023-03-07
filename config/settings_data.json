@@ -453,6 +453,14 @@
     "mlvedaACS_textHoverColor": "inherit",
     "favicon": "shopify:\/\/shop_images\/logo.png",
     "mlvedaACS_enable": false,
+    "blocks": {
+      "12793297677437526120": {
+        "settings": {
+        },
+        "disabled": false,
+        "type": "shopify:\/\/apps\/content-translation\/blocks\/custom_translations\/b5b83690-efd4-434d-8c6a-a5cef4019faf"
+      }
+    },
     "social_facebook_link": "https:\/\/facebook.com\/shopify",
     "mlvedaACS_supportedCurrencies": "USD VND EUR",
     "type_base_font": "helvetica_n4",
@@ -463,15 +471,7 @@
     "mlvedaACS_borderLineColor": "inherit",
     "color_image_overlay_text": "#ffffff",
     "mlvedaACS_displayFlag": false,
-    "color_borders": "#ebebeb",
-    "blocks": {
-      "12793297677437526120": {
-        "type": "shopify:\/\/apps\/content-translation\/blocks\/custom_translations\/b5b83690-efd4-434d-8c6a-a5cef4019faf",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    }
+    "color_borders": "#ebebeb"
   },
   "presets": {
     "Light": {

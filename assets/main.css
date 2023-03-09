@@ -25,6 +25,14 @@
 .site-header__icon {
   color: #4f4f4f;
 }
+.site-header__account {
+  position: relative;
+}
+.site-header__account .group-menu-account {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
 .site-header__mobile-nav {
   background-color: transparent;
   -webkit-transition: all 0.3s ease-in-out;

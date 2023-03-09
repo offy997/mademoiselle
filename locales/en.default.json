@@ -367,8 +367,7 @@
       "account": "Account",
       "log_out": "Log out",
       "log_in": "Log in",
-      "create_account": "Not a member yet? Register now.",
-      "register_now": "Register now"
+      "create_account": "Not a member yet? Register now."
     },
     "footer": {
       "social_platform": "{{ name }} on {{ platform }}"

@@ -122,13 +122,18 @@
               <a href="{{ routes.account_url }}" class="site-header__icon site-header__account">
                 {% include 'icon-login' %}
                 <span class="icon__fallback-text">{{ 'layout.customer.account' | t }}</span>
-              <div class="group-menu-account">
-              </div>
+                
               </a>
             {% else %}
               <a href="{{ routes.account_login_url }}" class="site-header__icon site-header__account">
                 {% include 'icon-login' %}
                 <span class="icon__fallback-text">{{ 'layout.customer.log_in' | t }}</span>
+                <ul class="group-menu-account">
+                  <li>
+                    <a href="{{ routes.account_login_url }}">{{ 'layout.customer.log_in' | t }}</a>
+                    <a href="{{ routes.account_login_url }}">{{ 'layout.customer.register_now' | t }}</a>
+                  </li>
+                </ul>
               </a>
             {% endif %}
           {% endif %}

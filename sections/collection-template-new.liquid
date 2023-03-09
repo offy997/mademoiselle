@@ -41,7 +41,9 @@
           {% endfor %}
         </div>
       {%- assign testts = collection.metafields.test_field.acf_fields -%}
-      <div>{{ testts }}</div>
+     {% for testt in testts %}
+          <div class="item">{{ testt }}</div>
+          {% endfor %}
       
       </div>
       {% if is_filter_by_available == false and section.settings.sort_enable == false %}

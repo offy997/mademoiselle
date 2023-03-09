@@ -122,6 +122,8 @@
               <a href="{{ routes.account_url }}" class="site-header__icon site-header__account">
                 {% include 'icon-login' %}
                 <span class="icon__fallback-text">{{ 'layout.customer.account' | t }}</span>
+              <div class="group-menu-account">
+              </div>
               </a>
             {% else %}
               <a href="{{ routes.account_login_url }}" class="site-header__icon site-header__account">

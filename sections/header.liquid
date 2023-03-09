@@ -128,14 +128,14 @@
               <a href="{{ routes.account_login_url }}" class="site-header__icon site-header__account">
                 {% include 'icon-login' %}
                 <span class="icon__fallback-text">{{ 'layout.customer.log_in' | t }}</span>
-                <ul class="group-menu-account" style="display:none">
-                  <li>
+                <span class="group-menu-account" style="display:none">
+                  <span>
                     <a href="{{ routes.account_login_url }}">{{ 'layout.customer.log_in' | t }}</a>
-                  </li>
-                  <li>
+                  </span>
+                  <span>
                     <a href="{{ routes.account_register_url}}">{{ 'layout.customer.register_now' | t }}</a>
-                  </li>
-                </ul>
+                  </span>
+                </span>
               </a>
             {% endif %}
           {% endif %}

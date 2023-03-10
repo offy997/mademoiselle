@@ -465,7 +465,7 @@ body {
   transition: all .3s ease-in-out;
 }
 .button-link .icon-link:hover {
-  border-color: #ffffff;
+/*   border-color: #ffffff; */
   background-color: #f9a9de;
 }
 .button-link .icon-link:hover img {

@@ -462,7 +462,6 @@ body {
   justify-content: center;
   align-items: center;
   margin-left: 16px;
-  transition: all .3s ease-in-out;
 }
 .button-link .icon-link:hover {
   border-color: #f9a9de;

@@ -441,9 +441,7 @@
           "show_vendor": false,
           "sort_enable": true,
           "tags_enable": true,
-          "load_more_pagination": "load_more",
-          "title_hight_product": "Hight Product",
-          "des_hight_product": "Here’s some of our most popular products people are in love with."
+          "load_more_pagination": "load_more"
         }
       }
     },

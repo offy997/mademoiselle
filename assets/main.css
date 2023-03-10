@@ -121,6 +121,9 @@ h2#RecoverHeading,
   padding: 6px 1px;
   border-radius: 3px;
 }
+.site-header__icons-wrapper .group-user-list li {
+  padding: 5px 10px;
+}
 .officience-hero {
       height: 100vh;
   }

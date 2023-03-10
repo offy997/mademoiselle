@@ -130,6 +130,9 @@ h2#RecoverHeading,
   opacity: 0;
   transition: all .3s ease-in-out;
 }
+.user-logged .site-header__icons-wrapper .group-user-list {
+  bottom: -86px;
+}
 .site-header__icons-wrapper .group-user-list-active {
   visibility: visible;
   opacity: 1;

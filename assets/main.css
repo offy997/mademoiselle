@@ -112,6 +112,15 @@ h2#RecoverHeading,
 .site-header__account:hover{
   color: #f9a9de !important;
 }
+.tl-switcher .tl-options {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .3s ease-in-out;
+}
+.tl-switcher .tl-options.open {
+  visibility: visible;
+  opacity: 1;
+}
 .tl-switcher ul li:hover .tl-label {
   color: #f9a9de !important;
 }

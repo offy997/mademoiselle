@@ -1,3 +1,21 @@
+* {
+    scrollbar-width: thin; 
+    scrollbar-color:  #ccc #050706;
+}
+//== Chrome, edge ==//
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #050706;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ccc;
+}
 /* Header */
 .tlab-localization .tl-select {
   border: none !important;

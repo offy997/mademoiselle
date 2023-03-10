@@ -113,12 +113,6 @@
       </div>
     {% endif %}
   </header>
-  <div class="page-width hight-product">
-  {% if section.settings.title_hight_product %}
-    <h2>{{ section.settings.title_hight_product }}</h2>
-  {% endif %}
-    <div class="sub-title"></div>
-  </div>
   <div class="page-width" id="Collection">
     {% if section.settings.layout == 'grid' %}
       {% case section.settings.grid %}
@@ -241,6 +235,11 @@
     	{%- endif -%}
        <!-- end custom ajax loadmore 2022 -->	
     {%- endif -%}
+  </div>
+  <div class="page-width hight-product">
+  {% if section.settings.title_hight_product %}
+    <h2>{{ section.settings.title_hight_product }}</h2>
+  {% endif %}
   </div>
 </div>
 

@@ -236,19 +236,6 @@
        <!-- end custom ajax loadmore 2022 -->	
     {%- endif -%}
   </div>
-  {% if collection.metafields.hight_product.acf_fields %}
-    <div class="page-width hight-product">
-    {% if section.settings.title_hight_product %}
-      <h2>{{ section.settings.title_hight_product }}</h2>
-    {% endif %}
-    </div>
-    {%- assign hightProducts = collection.metafields.hight_product.acf_fields -%}
-    <div class="list-hight-product">
-      {% for hightProduct in hightProducts %}
-        <div class="item">{{ hightProduct }}</div>
-      {% endfor %}
-    </div>
-  {% endif %}
 </div>
 
 {% endpaginate %}
@@ -552,12 +539,6 @@
           }
         ],
         "default": "pagination"
-      },
-      {
-          "type": "text",
-          "id": "title_hight_product",
-          "label": "Title",
-          "default": "Hight Product"
       }
   ]
 }

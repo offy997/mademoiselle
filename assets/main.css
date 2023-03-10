@@ -992,6 +992,9 @@ margin-top: 0 !important}
   } */
 }
 @media screen and (max-width: 749px) {
+  .site-header__icons-wrapper .group-user-list {
+    right: 82px;
+  }
    .template-my-account-custom .myaccount__order-history table .note {
   	margin-top: 0;
     margin-left: 10px

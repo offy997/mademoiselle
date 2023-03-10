@@ -115,7 +115,8 @@ h2#RecoverHeading,
 }
 .site-header__icons-wrapper .group-user-list{
   position: absolute;
-  bottom: -35px;
+  bottom: -59px;
+  right: 42px;
   text-align: left;
   box-shadow: 0 0 5px 1px #00000026;
   padding: 6px 1px;

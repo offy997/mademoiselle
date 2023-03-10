@@ -4,16 +4,16 @@
 }
 //== Chrome, edge ==//
 /* width */
-::-webkit-scrollbar {
+body::-webkit-scrollbar {
     width: 6px;
 }
 
-::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
     background: #050706;
 }
 
 /* Handle */
-::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
     background: #ccc;
 }
 /* Header */

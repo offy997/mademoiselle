@@ -14,6 +14,7 @@ $(document).ready(function() {
   eyePassword();
   validateEmail();
   animationHeaderBanner();
+  hoverEvent();
 });
 
 function OnScroll() { 
@@ -35,6 +36,19 @@ function OnScroll() {
     } else {
         btnScrollTop.removeClass('active-scroll-top');
     }
+}
+
+function hoverEvent() {
+  let iconUser = $('.site-header__account');
+  let goupListUser = $('.group-user-list');
+
+  iconUser.hover(
+    function() {  
+      goupListUser.addClass('group-user-list-active');
+    }, function() {
+      goupListUser.removeClass('group-user-list-active');
+    }
+  );
 }
 
 function btnScrollTop() {

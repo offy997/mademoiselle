@@ -129,6 +129,7 @@ h2#RecoverHeading,
   visibility: hidden;
   opacity: 0;
   transition: all .3s ease-in-out;
+  background: #ffffff;
 }
 .user-logged .site-header__icons-wrapper .group-user-list {
   bottom: -86px;

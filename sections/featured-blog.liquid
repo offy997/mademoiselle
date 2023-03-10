@@ -7,7 +7,7 @@
         {% if section.settings.show_view_all %}
         {% if section.settings.view_all_text != blank %}
         <div class="button-link">
-          <a class="text-link" href="{{ routes.root_url }}/blogs/news">{{section.settings.view_all_text}}</a>
+          <a class="text-link" href="{{ routes.root_url }}blogs/news">{{section.settings.view_all_text}}</a>
           <a class="icon-link" href="{{ routes.root_url }}/blogs/news"><img src="{{ 'arrow-right.png' | asset_url }}"></a>
         </div>
     {% endif %}

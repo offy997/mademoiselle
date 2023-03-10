@@ -114,7 +114,9 @@
     {% endif %}
   </header>
   <div class="page-width hight-product">
-    <h2></h2>
+    {% if section.settings.title_hight_product %}
+    <h2>{{ section.settings.title_hight_product }}</h2>
+    {% endif %}
     <div class="sub-title"></div>
   </div>
   <div class="page-width" id="Collection">

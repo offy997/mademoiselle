@@ -106,6 +106,7 @@ h2#RecoverHeading,
 }
 .site-header__account {
   cursor: pointer;
+  transition: all .3s ease-in-out;
 }
 .user-logged .site-header__account,
 .site-header__account:hover{

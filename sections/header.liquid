@@ -133,7 +133,10 @@
             <ul class="group-user-list">
               {% if customer %}
                 <li class="item">
-                  <a href="{{ routes.account_url }}">
+                  <a href="{{ routes.account_url }}">{{ 'layout.customer.account' | t }}</a>
+                </li>
+                <li class="item">
+                  <a href="{{ routes.account_logout_url }}">{{ 'layout.customer.account' | t }}</a>
                 </li>
               {% else %}
                 

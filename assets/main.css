@@ -56,7 +56,9 @@ a:hover {
 
 h1 {
   font-family: 'Libre Baskerville,serif' !important;
+  text-shadow: 3px 2px 0px #ffff, 6px 4px 0px rgb(0 0 0 / 10%);
 }
+
 h2#RecoverHeading,
 .title-reset-pass {
   letter-spacing: -0.01em;

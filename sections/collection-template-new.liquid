@@ -236,11 +236,14 @@
        <!-- end custom ajax loadmore 2022 -->	
     {%- endif -%}
   </div>
-  <div class="page-width hight-product">
-  {% if section.settings.title_hight_product %}
-    <h2>{{ section.settings.title_hight_product }}</h2>
+  {% if collection.metafields.hight_product.acf_fields %}
+    <div class="page-width hight-product">
+    {% if section.settings.title_hight_product %}
+      <h2>{{ section.settings.title_hight_product }}</h2>
+    {% endif %}
+    </div>
+    {{collection.metafields.hight_product.acf_fields}}
   {% endif %}
-  </div>
 </div>
 
 {% endpaginate %}

@@ -130,6 +130,15 @@
                 <span class="icon__fallback-text">{{ 'layout.customer.log_in' | t }}</span>
               </a>
             {% endif %}
+            <ul class="group-user-list">
+              {% if customer %}
+                <li class="item">
+                  <a href="{{ routes.account_url }}">
+                </li>
+              {% else %}
+                
+              {% endif %}
+            </ul>
           {% endif %}
 
           

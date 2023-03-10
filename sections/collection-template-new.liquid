@@ -242,7 +242,12 @@
       <h2>{{ section.settings.title_hight_product }}</h2>
     {% endif %}
     </div>
-    {{collection.metafields.hight_product.acf_fields | json}}
+    {%- assign hightProducts = collection.metafields.hight_product.acf_fields -%}
+    <div class="list-hight-product">
+      {% for hightProduct in hightProducts %}
+        <div class="item">aaa</div>
+      {% endfor %}
+    </div>
   {% endif %}
 </div>
 

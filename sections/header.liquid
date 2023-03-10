@@ -144,7 +144,10 @@
                 </li>
               {% else %}
                 <li class="item">
-                  <a href="{{ routes.account_login_url }}" style="display:flex;align-items:center"><img width="20" src="https://cdn.shopify.com/s/files/1/0613/9261/7724/files/login.png?v=1678440211" alt="icon-login">{{ 'layout.customer.log_in' | t }}</a>
+                  <a href="{{ routes.account_login_url }}" style="display:flex;align-items:center">
+                    <img width="20" src="https://cdn.shopify.com/s/files/1/0613/9261/7724/files/login.png?v=1678440211" alt="icon-login">
+                   <span style="padding-left:2px;">{{ 'layout.customer.log_in' | t }}</span>
+                </a>
                 </li>
                 <li class="item">
                   <a href="{{ routes.account_register_url }}">{{ 'layout.customer.registe_now' | t }}</a>

@@ -49,6 +49,13 @@ function hoverEvent() {
       goupListUser.removeClass('group-user-list-active');
     }
   );
+  goupListUser.hover(
+    function() {  
+      $(this).addClass('group-user-list-active');
+    }, function() {
+      $(this).removeClass('group-user-list-active');
+    }
+  );
 }
 
 function btnScrollTop() {

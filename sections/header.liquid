@@ -132,15 +132,15 @@
             <ul class="group-user-list">
               {% if customer %}
                 <li class="item">
-                  <a href="{{ routes.account_url }}">{{ 'layout.customer.account' | t }}</a>
+                  <a href="{{ routes.account_url }}" style="display:flex;align-items:center">{{ 'layout.customer.account' | t }}</a>
                 </li>
                 <li class="item">
-                  <a href="{{ routes.account_addresses_url }}">
+                  <a href="{{ routes.account_addresses_url }}" style="display:flex;align-items:center">
                      {{ 'layout.customer.address' | t }}
                 </a>
                 </li>
                 <li class="item">
-                  <a href="{{ routes.account_logout_url }}">{{ 'layout.customer.log_out' | t }}</a>
+                  <a href="{{ routes.account_logout_url }}" style="display:flex;align-items:center">{{ 'layout.customer.log_out' | t }}</a>
                 </li>
               {% else %}
                 <li class="item">
@@ -150,7 +150,9 @@
                 </a>
                 </li>
                 <li class="item">
-                  <a href="{{ routes.account_register_url }}">{{ 'layout.customer.registe_now' | t }}</a>
+                  <a href="{{ routes.account_register_url }}" style="display:flex;align-items:center">
+                  <img width="20" src="https://cdn.shopify.com/s/files/1/0613/9261/7724/files/create-user.png?v=1678443506" alt="icon-create">
+                  {{ 'layout.customer.registe_now' | t }}</a>
                 </li>
               {% endif %}
             </ul>

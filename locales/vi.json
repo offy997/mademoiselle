@@ -318,7 +318,8 @@
       "forgot_password": "Bạn quên mật khẩu?",
       "sign_in": "Đăng nhập",
       "guest_title": "Tiếp tục dưới tư cách khách",
-      "guest_continue": "Tiếp tục"
+      "guest_continue": "Tiếp tục",
+      "sub-title": "Chào mừng trở lại, vui lòng đăng nhập vào tài khoản của bạn."
     },
     "orders": {
       "title": "Lịch sử đặt hàng",

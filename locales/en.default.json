@@ -364,10 +364,11 @@
       }
     },
     "customer": {
-      "account": "Account",
+      "account": "My account",
       "log_out": "Log out",
       "log_in": "Log in",
-      "create_account": "Not a member yet? Register now."
+      "create_account": "Not a member yet? Register now.",
+      "registe_now": "Create account"
     },
     "footer": {
       "social_platform": "{{ name }} on {{ platform }}"

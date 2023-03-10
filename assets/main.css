@@ -4,17 +4,17 @@
 }
 //== Chrome, edge ==//
 /* width */
-body::-webkit-scrollbar {
-    width: 6px;
+::-webkit-scrollbar {
+    width: 6px !important;
 }
 
-body::-webkit-scrollbar-track {
-    background: #050706;
+::-webkit-scrollbar-track {
+    background: #050706 !important;
 }
 
 /* Handle */
-body::-webkit-scrollbar-thumb {
-    background: #ccc;
+::-webkit-scrollbar-thumb {
+    background: #ccc !important;
 }
 /* Header */
 .tlab-localization .tl-select {

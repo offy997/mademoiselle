@@ -110,6 +110,13 @@ h2#RecoverHeading,
 .tl-switcher ul li:hover .tl-label {
   color: #f9a9de !important;
 }
+.site-header__icons-wrapper {
+  position: relative;
+}
+.site-header__icons-wrapper .group-user-list{
+  position: absolute;
+  bottom: 0;
+}
 .officience-hero {
       height: 100vh;
   }

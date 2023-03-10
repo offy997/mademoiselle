@@ -205,7 +205,7 @@ window.supported_currencies = "{{ settings.mlvedaACS_supportedCurrencies }}";
    
 </head>
 
-<body class="template-{{ request.page_type | handle }}{% if customer %}user-logged{% endif %}">
+<body class="template-{{ request.page_type | handle }} {% if customer %}user-logged{% endif %}">
   <a class="in-page-link visually-hidden skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
   {%- if settings.enable_ajax -%}
     {% include 'cart-popup' %}

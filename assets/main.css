@@ -104,7 +104,11 @@ h2#RecoverHeading,
   color:  #ffffff;
   
 }
-.user-logged .site-header__account {
+.site-header__account {
+  cursor: pointer;
+}
+.user-logged .site-header__account,
+.site-header__account:hover{
   color: #f9a9de !important;
 }
 .tl-switcher ul li:hover .tl-label {

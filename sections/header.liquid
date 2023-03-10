@@ -119,16 +119,15 @@
 
           {% if shop.customer_accounts_enabled %}
             {% if customer %}
-              <a href="{{ routes.account_url }}" class="site-header__icon site-header__account">
+              <span class="site-header__icon site-header__account">
                 {% include 'icon-login' %}
                 <span class="icon__fallback-text">{{ 'layout.customer.account' | t }}</span>
-                
-              </a>
+              </span>
             {% else %}
-              <a href="{{ routes.account_login_url }}" class="site-header__icon site-header__account">
+              <span class="site-header__icon site-header__account">
                 {% include 'icon-login' %}
                 <span class="icon__fallback-text">{{ 'layout.customer.log_in' | t }}</span>
-              </a>
+              </span>
             {% endif %}
             <ul class="group-user-list">
               {% if customer %}
@@ -140,7 +139,7 @@
                 </li>
               {% else %}
                 <li class="item">
-                  <a href="{{ routes.account_url }}">{{ 'layout.customer.log_in' | t }}</a>
+                  <a href="{{ routes.account_login_url }}">{{ 'layout.customer.log_in' | t }}</a>
                 </li>
                 <li class="item">
                   <a href="{{ routes.account_register_url }}">{{ 'layout.customer.registe_now' | t }}</a>

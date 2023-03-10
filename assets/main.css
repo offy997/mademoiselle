@@ -54,6 +54,9 @@ a:hover {
   color: #f9a9de;
 }
 
+h1 {
+  font-family: 'Libre Baskerville,serif' !important;
+}
 h2#RecoverHeading,
 .title-reset-pass {
   letter-spacing: -0.01em;

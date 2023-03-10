@@ -136,10 +136,15 @@
                   <a href="{{ routes.account_url }}">{{ 'layout.customer.account' | t }}</a>
                 </li>
                 <li class="item">
-                  <a href="{{ routes.account_logout_url }}">{{ 'layout.customer.account' | t }}</a>
+                  <a href="{{ routes.account_logout_url }}">{{ 'layout.customer.log_out' | t }}</a>
                 </li>
               {% else %}
-                
+                <li class="item">
+                  <a href="{{ routes.account_url }}">{{ 'layout.customer.log_in' | t }}</a>
+                </li>
+                <li class="item">
+                  <a href="{{ routes.account_logout_url }}">{{ 'layout.customer.registe_now' | t }}</a>
+                </li>
               {% endif %}
             </ul>
           {% endif %}

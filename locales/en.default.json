@@ -365,6 +365,7 @@
     },
     "customer": {
       "account": "My account",
+      "address": "My address",
       "log_out": "Log out",
       "log_in": "Log in",
       "create_account": "Not a member yet? Register now.",

@@ -245,7 +245,7 @@
     {%- assign hightProducts = collection.metafields.hight_product.acf_fields -%}
     <div class="list-hight-product">
       {% for hightProduct in hightProducts %}
-        <div class="item">aaa</div>
+        <div class="item">{{ hightProduct }}</div>
       {% endfor %}
     </div>
   {% endif %}

@@ -107,7 +107,7 @@ h2#RecoverHeading,
 .user-logged .site-header__account {
   color: #f9a9de !important;
 }
-.tl-switcher .tl-label:hover {
+.tl-switcher ul li:hover .tl-label {
   color: #f9a9de !important;
 }
 .officience-hero {

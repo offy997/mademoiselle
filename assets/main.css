@@ -123,7 +123,7 @@ h2#RecoverHeading,
   border-radius: 3px;
   visibility: hidden;
 }
-.group-user-list-active {
+.site-header__icons-wrapper .group-user-list-active {
   visibility: visible;
 }
 .site-header__icons-wrapper .group-user-list li {

@@ -468,6 +468,9 @@ body {
   border-color: #ffffff;
   background-color: #f9a9de;
 }
+.button-link .icon-link:hover img {
+  filter: brightness(0) invert(1);
+}
 .article__date,
 .article__author {
   font-size: 14px;

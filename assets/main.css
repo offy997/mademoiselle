@@ -48,6 +48,10 @@ a:hover {
 .site-nav__link:not([disabled]):hover .site-nav__label {
   border-bottom-color: #f9a9de !important;
 }
+.site-nav__link--active .site-nav__label {
+  border-bottom: none !important;
+  color: #f9a9de;
+}
 
 h2#RecoverHeading,
 .title-reset-pass {

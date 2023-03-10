@@ -121,6 +121,10 @@ h2#RecoverHeading,
   box-shadow: 0 0 5px 1px #00000026;
   padding: 6px 1px;
   border-radius: 3px;
+  visibility: hidden;
+}
+.group-user-list-active {
+  visibility: visible;
 }
 .site-header__icons-wrapper .group-user-list li {
   padding: 2px 10px;

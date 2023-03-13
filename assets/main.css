@@ -513,6 +513,11 @@ body {
   }
 }
 
+.group-row-contact {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* responsive */
 @media screen and (max-width: 750px){
   body {

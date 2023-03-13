@@ -124,6 +124,12 @@ h2#RecoverHeading,
 .site-header__icons-wrapper {
   position: relative;
 }
+.site-nav__dropdown {
+   box-shadow: 0 0 5px 1px #00000026;
+  border-radius: 3px;
+   background: #ffffff;
+  border: none;
+}
 .site-header__icons-wrapper .group-user-list{
   position: absolute;
   bottom: -59px;

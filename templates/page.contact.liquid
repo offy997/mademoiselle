@@ -8,8 +8,7 @@
     </div>
   {% endif %}
   <div class="page-width">
-    <div class="row">
-        <div class="grid col-lg-6 col-md-6 col-sm-12 col-12">
+    <div class="grid">
       <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
         {% if page.content.size > 0 %}
           <div class="rte">
@@ -24,7 +23,7 @@
 
             <div class="grid grid--half-gutters">
               <div class="grid__item medium-up--one-half">
-<!--                 <label for="{{ formId }}-name">{{ 'contact.form.name' | t }} <span aria-hidden="true" style="color:red">*</span></label> -->
+                <label for="{{ formId }}-name">{{ 'contact.form.name' | t }} <span aria-hidden="true" style="color:red">*</span></label>
                 <input placeholder="{{ 'contact.form.name' | t }}*"type="text" required="required" id="{{ formId }}-name" name="contact[{{ 'contact.form.name' | t }}]" value="{% if form[name] %}{{ form[name] }}{% elsif customer %}{{ customer.name }}{% endif %}">
               </div>
               <div class="grid__item medium-up--one-half" style="position: relative">
@@ -71,9 +70,6 @@
         </div>
       </div>
     </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-    </div>
-    
   </div>
   <div class="gg-map">
     <div class="item">

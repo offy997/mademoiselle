@@ -202,14 +202,6 @@ window.mlvedaShopCurrency = "{{ shop.currency }}";
 window.shopCurrency = "{{ shop.currency }}";
 window.supported_currencies = "{{ settings.mlvedaACS_supportedCurrencies }}";
 </script>
-
-<script src="https://www.google.com/recaptcha/api.js"></script>
-<script>
-  function onSubmit(token) {
-    document.getElementById("ContactForm").submit();
-  }
-</script>
-   
 </head>
 
 <body class="template-{{ request.page_type | handle }} {% if customer %}user-logged{% endif %}">

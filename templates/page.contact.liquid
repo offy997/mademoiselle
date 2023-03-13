@@ -8,21 +8,11 @@
     </div>
   {% endif %}
   <div class="page-width">
-    {% if page.content.size > 0 %}
-      <div class="rte">{{ page.content }}</div>
-    {% endif %}
-
     <div class="group-row-contact">
       <div class="col-content col-left">
-        <h3 data-select-like-a-boss="1">Our Addresses</h3>
-        <h5 class="address-vn"><strong>HO CHI MINH CITY, VIETNAM</strong></h5>
-        <p><strong> Office 1:</strong> 16A Le Hong Phong Street (pro-long), Ward 12. District 10, HCMC.</p>
-        <p><strong>Office 2:</strong> 161A Phan Dang Luu Street, Ward 1, Phu Nhuan District, HCMC</p>
-        <h5 class="address-paris"><strong>PARIS, FRANCE </strong></h5>
-        <p data-selected="true" data-label-id="0"><strong>Office:</strong> 47 Boulevard de Sébastopol, 75001, Paris, France</p>
-        <h5 class="address-usa"><strong>SAN FRANCISCO, USA</strong></h5>
-        <p><strong> Office:</strong> 201 Spear Street, Suite 1100-3169, San Francisco, CA 94105</p>
-      
+        {% if page.content.size > 0 %}
+          <div class="rte">{{ page.content }}</div>
+        {% endif %}
       </div>
       <div class="col-content col-right">
         <div class="contact-form form-vertical">

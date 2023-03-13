@@ -64,10 +64,7 @@
             <textarea style="resize: none;" required="required" rows="10" id="{{ formId }}-message" name="contact[{{ 'contact.form.message' | t }}]">{% if form.body %}{{ form.body }}{% endif %}</textarea>
 
             <input type="submit"  
-            class="btn g-recaptcha"
-            data-sitekey="reCAPTCHA_site_key" 
-            data-callback='onSubmit' 
-            data-action='submit' value="{{ 'contact.form.submit' | t }}">
+            class="btn" value="{{ 'contact.form.submit' | t }}">
           {% endform %}
         </div>
       </div>

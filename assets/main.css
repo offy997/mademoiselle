@@ -680,9 +680,6 @@ body {
   object-fit: cover;
   justify-content: center;
 }
-.group-row-contact .col-content {
-  width: 100% !important;
-}
 .gg-map {
   display: flex;
   width: 100%;

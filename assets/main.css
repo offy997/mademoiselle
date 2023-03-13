@@ -520,9 +520,11 @@ body {
 .group-row-contact .col-left {
   width: 40%;
 }
-
 .group-row-contact .col-right {
   width: 60%;
+}
+.group-row-contact .col-content {
+  padding: 0 10px;
 }
 
 /* responsive */

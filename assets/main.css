@@ -556,7 +556,8 @@ body {
 }
 .group-row-contact .col-left h2 {
   font-family: Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
-  font-weight: bold;
+  font-weight: 600;
+  letter-spacing: -0.01em;
 }
 
 /* responsive */

@@ -27,7 +27,7 @@
                 <input type="text" required="required" id="{{ formId }}-name" name="contact[{{ 'contact.form.name' | t }}]" value="{% if form[name] %}{{ form[name] }}{% elsif customer %}{{ customer.name }}{% endif %}">
               </div>
               <div class="grid__item medium-up--one-half" style="position: relative">
-                <label for="{{ formId }}-email">{{ 'contact.form.email' | t }} <span aria-hidden="true" style="color:red">*</span></label>
+<!--                 <label for="{{ formId }}-email">{{ 'contact.form.email' | t }} <span aria-hidden="true" style="color:red">*</span></label> -->
                 <div style="position: relative;">
                 <input
                   type="email"
@@ -38,6 +38,7 @@
                   value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
                   aria-required="true"
                   required="required"
+                  placeholder= "{{ 'contact.form.email' | t }}*"
                   {%- if form.errors contains 'email' -%}
                     class="input--error"
                     aria-invalid="true"

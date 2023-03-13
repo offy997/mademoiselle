@@ -554,6 +554,9 @@ body {
 .group-row-contact .col-left p{
   margin-bottom: 10px !important;
 }
+.group-row-contact .col-left h2 {
+  font-family: '"Libre Baskerville,serif"!important';
+}
 
 /* responsive */
 @media screen and (max-width: 750px){

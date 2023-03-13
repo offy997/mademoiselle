@@ -556,6 +556,7 @@ body {
 }
 .group-row-contact .col-left h2 {
   font-family: 'Helvetical';
+  font-weight: bold;
 }
 
 /* responsive */

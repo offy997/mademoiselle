@@ -65,8 +65,8 @@
               required="required"
               rows="10"
               id="{{ formId }}-message"
-              name="contact[{{ 'contact.form.message' | t }}]">
-              placeholder="{{ 'contact.form.message' | t }}*"
+              name="contact[{{ 'contact.form.message' | t }}]"
+              placeholder="{{ 'contact.form.message' | t }}*">
               {% if form.body %}
                 {{ form.body }}{% endif %}
             </textarea>

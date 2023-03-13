@@ -50,7 +50,7 @@ a:hover {
 }
 .site-nav__link--active .site-nav__label,
 .site-footer__linklist-item a[aria-current="page"],
-.site-nav__link .site-nav__child-link site-nav__link--last[aria-current="page"]{
+.site-nav--has-dropdown .site-nav__child-link.site-nav__link--last[aria-current="page"]{
   border-bottom: none !important;
   color: #f9a9de;
 }

@@ -1053,6 +1053,10 @@ margin-top: 0 !important}
 /*   .product-detail-page-custom .product-single__thumbnails .product-single__thumbnail-image {
     height: 97px;
   } */
+  .group-row-contact .col-left,
+.group-row-contact .col-right{
+  width: 100%;
+}
 }
 @media screen and (max-width: 749px) {
   .site-header__icons-wrapper .group-user-list {

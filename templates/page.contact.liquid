@@ -59,7 +59,7 @@
                 name="contact[{{ 'contact.form.phone' | t }}]"
                 value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{ customer.phone }}{% endif %}">
             </div>
-<!--            <label for="{{ formId }}-message">{{ 'contact.form.message' | t }} <span aria-hidden="true" style="color:red">*</span></label> -->
+
             <textarea placeholder="{{ 'contact.form.message' | t }}*" style="resize: none;" required="required" rows="10" id="{{ formId }}-message" name="contact[{{ 'contact.form.message' | t }}]">{% if form.body %}{{ form.body }}{% endif %}</textarea>
             <input
               type="submit"

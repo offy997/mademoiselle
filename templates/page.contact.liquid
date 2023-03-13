@@ -67,7 +67,8 @@
               id="{{ formId }}-message"
               name="contact[{{ 'contact.form.message' | t }}]">
               {% if form.body %}
-                {{ form.body }}{% endif %}
+                {{ form.body }}
+              {% endif %}
             </textarea>
 
             <input

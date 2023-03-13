@@ -23,7 +23,7 @@
 
             <div class="grid grid--half-gutters">
               <div class="grid__item medium-up--one-half">
-                <label for="{{ formId }}-name">{{ 'contact.form.name' | t }} <span aria-hidden="true" style="color:red">*</span></label>
+<!--                 <label for="{{ formId }}-name">{{ 'contact.form.name' | t }} <span aria-hidden="true" style="color:red">*</span></label> -->
                 <input placeholder="{{ 'contact.form.name' | t }}*"type="text" required="required" id="{{ formId }}-name" name="contact[{{ 'contact.form.name' | t }}]" value="{% if form[name] %}{{ form[name] }}{% elsif customer %}{{ customer.name }}{% endif %}">
               </div>
               <div class="grid__item medium-up--one-half" style="position: relative">

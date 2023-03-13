@@ -548,6 +548,9 @@ body {
     margin-top: 40px;
     padding: 18px 0 0 45px;
 }
+.group-row-contact .col-left p{
+  margin-bottom: 10px;
+}
 
 /* responsive */
 @media screen and (max-width: 750px){

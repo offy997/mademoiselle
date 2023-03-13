@@ -1057,6 +1057,9 @@ margin-top: 0 !important}
 .group-row-contact .col-right{
   width: 100%;
 }
+   .group-row-contact .col-content {
+     padding: 0;
+   }
   .group-row-contact .col-left{
     margin-bottom: 30px
   }

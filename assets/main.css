@@ -129,6 +129,7 @@ h2#RecoverHeading,
   border-radius: 3px;
    background: #ffffff;
   border: none;
+  top: 30px;
 }
 .site-header__icons-wrapper .group-user-list{
   position: absolute;

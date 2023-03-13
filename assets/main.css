@@ -517,6 +517,13 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+.group-row-contact .col-left {
+  width: 40%;
+}
+
+.group-row-contact .col-right {
+  width: 60%;
+}
 
 /* responsive */
 @media screen and (max-width: 750px){

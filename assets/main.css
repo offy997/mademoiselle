@@ -549,7 +549,7 @@ body {
     padding: 18px 0 0 45px;
 }
 .group-row-contact .col-left p{
-  margin-bottom: 10px;
+  margin-bottom: 10px !important;
 }
 
 /* responsive */

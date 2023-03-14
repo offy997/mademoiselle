@@ -294,7 +294,7 @@ h2#RecoverHeading,
 }
 
 .title-newsletter {
-  margin-bottom: 10px;
+  margin-bottom: 15px !important;
 }
 .site-footer__newsletter .input-group {
   position: relative;

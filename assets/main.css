@@ -48,7 +48,8 @@ a:hover {
 .site-nav__link:not([disabled]):hover .site-nav__label {
   border-bottom-color: #f9a9de !important;
 }
-.site-nav__link:focus .site-nav__label {
+.site-nav__link:focus .site-nav__label,
+.site-nav__link:hover .site-nav__lable{
   border: none;
 }
 .site-nav__link--active .site-nav__label,

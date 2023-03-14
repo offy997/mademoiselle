@@ -303,7 +303,7 @@
       "footer-new": {
         "type": "footer-new",
         "settings": {
-          "logo_footer": "shopify:\/\/shop_images\/Mademoiselle.png",
+          "logo_footer": "shopify:\/\/shop_images\/logo-footer.png",
           "title_newsletter": "Newsletter subscription",
           "footer_menu_col_1": "footer",
           "footer_menu_col_2": "footer-second-menu",

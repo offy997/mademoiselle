@@ -1,3 +1,4 @@
+/* palette color: pink dark #6a0046, pink mid #b20f7b, pink #f9a9de */
 /* Header */
 .tlab-localization .tl-select {
   border: none !important;
@@ -17,9 +18,6 @@
   -moz-transition: all 0.1s ease-in-out;
   -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
-}
-.logo-align--center .site-header__logo {
-  width: fit-content;
 }
 .site-header__logo-image,
 .site-header__logo {
@@ -86,7 +84,7 @@ h2#RecoverHeading,
 .site-nav--centered {
   padding-bottom: 22px;
   position: fixed;
-  top: 95px;
+  top: 90px;
   left: 0;
   width: 100%;
   z-index: 50;

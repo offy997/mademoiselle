@@ -758,6 +758,10 @@ body {
   .contact-template .banner-contact img {
     height: 250px;
   }
+  .page-width {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 /* single product */

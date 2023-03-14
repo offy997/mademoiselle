@@ -18,6 +18,9 @@
   -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
+.logo-align--center .site-header__logo {
+  width: fit-content;
+}
 .site-header__logo-image,
 .site-header__logo {
    background-color: transparent;
@@ -83,7 +86,7 @@ h2#RecoverHeading,
 .site-nav--centered {
   padding-bottom: 22px;
   position: fixed;
-  top: 90px;
+  top: 95px;
   left: 0;
   width: 100%;
   z-index: 50;

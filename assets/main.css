@@ -296,6 +296,7 @@ h2#RecoverHeading,
 .title-newsletter {
   margin-bottom: 15px !important;
   font-family: 'Libre Baskerville,serif'!important;
+  font-size: 18px !important;
 }
 .site-footer__newsletter .input-group {
   position: relative;

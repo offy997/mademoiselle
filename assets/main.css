@@ -592,6 +592,9 @@ body {
   .transparent-none {
     background-color: rgba(255, 255, 255, 1);
   }
+  .site-header__mobile-nav {
+    background-color: #ffffff;
+  }
   .date-author {
     padding-left: 22px;
   }

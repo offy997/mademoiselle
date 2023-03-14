@@ -160,6 +160,8 @@ h2#RecoverHeading,
   opacity: 0;
   transition: all .3s ease-in-out;
   background: #ffffff;
+  width: auto;
+  max-width: 150px;
 }
 .site-header__icons-wrapper .group-user-list-active {
   visibility: visible;

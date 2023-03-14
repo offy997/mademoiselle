@@ -1111,6 +1111,9 @@ margin-top: 0 !important}
   .template-my-account-custom .myaccount__order-history table tbody th[data-label="Order"] {
   background: rgba(249, 169, 222, 0.3);
 	}
+  .site-header__icons-wrapper .group-user-list {
+    width: 170px;
+  }
 }
 
 @media screen and (max-width: 575px) {

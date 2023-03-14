@@ -46,7 +46,7 @@ a:hover {
   color: #f9a9de !important;
 }
 .site-nav__link:not([disabled]):hover .site-nav__label {
-  border-bottom-color: #f9a9de !important;
+  border-bottom-color: unset !important;
 }
 .site-nav__link:focus .site-nav__label,
 .site-nav__link:hover .site-nav__lable,

@@ -640,6 +640,9 @@ body {
   .logo-footer {
     text-align: center;
   }
+  .site-footer__linklist-item {
+    padding: 5px 0;
+  }
   .scroll-top {
     display: none;
   }

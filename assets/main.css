@@ -48,6 +48,9 @@ a:hover {
 .site-nav__link:not([disabled]):hover .site-nav__label {
   border-bottom-color: #f9a9de !important;
 }
+.site-nav__link:focus .site-nav__label {
+  border: none;
+}
 .site-nav__link--active .site-nav__label,
 .site-footer__linklist-item a[aria-current="page"],
 .site-nav--has-dropdown .site-nav__child-link.site-nav__link--last[aria-current="page"]{

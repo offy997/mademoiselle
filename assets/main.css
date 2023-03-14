@@ -18,6 +18,9 @@
   -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
+.logo-align--center .site-header__logo {
+  width: fit-content;
+}
 .site-header__logo-image,
 .site-header__logo {
    background-color: transparent;

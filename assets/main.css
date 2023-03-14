@@ -637,6 +637,9 @@ body {
   .header-list-blog{
     display: block;
   }
+  .logo-footer {
+    text-align: center;
+  }
   .scroll-top {
     display: none;
   }

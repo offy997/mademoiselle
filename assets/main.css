@@ -42,6 +42,7 @@
 a,
 .site-nav__link:not([disabled]) .site-nav__label{
   transition: all .1s ease-in-out;
+  font-weight: 500;
 }
 a:hover {
   color: #f9a9de !important;

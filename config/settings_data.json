@@ -369,7 +369,7 @@
         "settings": {
           "align_logo": "center",
           "logo": "shopify:\/\/shop_images\/cfaceb1d93de41a085217331163d9671_1.png",
-          "logo_max_width": 130,
+          "logo_max_width": 150,
           "main_linklist": "main-menu",
           "message": false,
           "home_page_only": true,

@@ -44,7 +44,8 @@ a,
   transition: all .1s ease-in-out;
   color: #6a0046 !important;
 }
-a:hover {
+a:hover,
+.site-nav__link:not([disabled]) .site-nav__label {
   color: #f9a9de !important;
 }
 .site-nav__label {

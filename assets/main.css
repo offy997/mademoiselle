@@ -50,7 +50,7 @@ a:hover {
 }
 .site-nav__link:focus .site-nav__label,
 .site-nav__link:hover .site-nav__lable,
-.site-nav__link--button:hover {
+.site-nav__link--button:hover .site-nav__label{
   border: none;
 }
 .site-nav__link--active .site-nav__label,

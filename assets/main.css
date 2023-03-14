@@ -1,3 +1,4 @@
+/* palette color: pink dark #6a0046, pink mid #b20f7b, pink #f9a9de */
 /* Header */
 .tlab-localization .tl-select {
   border: none !important;
@@ -18,12 +19,12 @@
   -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
-.logo-align--center .site-header__logo {
-  width: fit-content;
-}
 .site-header__logo-image,
 .site-header__logo {
    background-color: transparent;
+}
+.site-header__logo-image img {
+  width: 140px !important;
 }
 .site-header__icon {
   color: #4f4f4f;
@@ -86,7 +87,7 @@ h2#RecoverHeading,
 .site-nav--centered {
   padding-bottom: 22px;
   position: fixed;
-  top: 94px;
+  top: 95px;
   left: 0;
   width: 100%;
   z-index: 50;
@@ -293,10 +294,13 @@ h2#RecoverHeading,
 .footer-top .social-icons .icon {
   width: 18px;
   height: 18px;
+  color: #6a0046;
 }
 
 .title-newsletter {
-  margin-bottom: 10px;
+  margin-bottom: 15px !important;
+  font-family: 'Libre Baskerville,serif'!important;
+  font-size: 18px !important;
 }
 .site-footer__newsletter .input-group {
   position: relative;
@@ -588,6 +592,12 @@ body {
   body {
     padding-top: 60px;
   }
+  .transparent-none {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .site-header__mobile-nav {
+    background-color: #ffffff;
+  }
   .date-author {
     padding-left: 22px;
   }
@@ -629,6 +639,12 @@ body {
   .footer-top,
   .header-list-blog{
     display: block;
+  }
+  .logo-footer {
+    text-align: center;
+  }
+  .site-footer__linklist-item {
+    padding: 5px 0;
   }
   .scroll-top {
     display: none;
@@ -1098,6 +1114,9 @@ margin-top: 0 !important}
   .template-my-account-custom .myaccount__order-history table tbody th[data-label="Order"] {
   background: rgba(249, 169, 222, 0.3);
 	}
+  .site-header__icons-wrapper .group-user-list {
+    width: 170px;
+  }
 }
 
 @media screen and (max-width: 575px) {

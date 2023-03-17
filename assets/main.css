@@ -846,6 +846,9 @@ body {
   height: 97px;
   resize: none;
 }
+#CartSpecialInstructions:focus-visible { 
+  outline: none;
+}
 
 /* my account */
 .template-customers-account footer,

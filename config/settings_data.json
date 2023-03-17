@@ -33,7 +33,7 @@
     "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
     "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
     "checkout_accent_color": "#f9a9de",
-    "checkout_button_color": "#000000",
+    "checkout_button_color": "#6a0046",
     "checkout_error_color": "#e22120",
     "mlvedaACS_roundDecimal": false,
     "mlvedaACS_autoSwitch": false,
@@ -881,5 +881,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+
+    ]
   }
 }

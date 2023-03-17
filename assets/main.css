@@ -842,6 +842,10 @@ body {
   border: 1px solid #f679cc !important;
   outline: none !important;
 }
+#CartSpecialInstructions {
+  height: 97px;
+  resize: none;
+}
 
 /* my account */
 .template-customers-account footer,

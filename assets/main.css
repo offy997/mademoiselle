@@ -369,14 +369,10 @@ body {
   position: fixed;
   top: -250px;
   right: -300px;
-  z-index: 1000;
   animation-name: spin;
   animation-duration: 60s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-}
-.vector-scroll {
-  z-index: 1;
 }
 .vector-bottom {
   position: fixed;

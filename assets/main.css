@@ -375,6 +375,9 @@ body {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
+.vector-scroll {
+  z-index: 1;
+}
 .vector-bottom {
   position: fixed;
   bottom: -300px;

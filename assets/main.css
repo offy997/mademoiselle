@@ -77,6 +77,10 @@ h1 {
   text-shadow: 1px 2px 0px #ffff, 3px 3px 0px rgb(0 0 0 / 10%);
   font-size: 42px;
 }
+h1.product-single__title {
+  font-size: 24px;
+  text-shadow: unset;
+}
 
 h2#RecoverHeading,
 .title-reset-pass {

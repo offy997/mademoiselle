@@ -110,7 +110,7 @@ h2#RecoverHeading,
   transition: all 0.3s ease-in-out;
 }
 .transparent-none {
-  background-color: rgba(255, 255, 255, 0.96);
+  background-color: #ffffff;
 }
 #SiteNav.transparent-none {
   box-shadow: 0 4px 20px -15px grey;

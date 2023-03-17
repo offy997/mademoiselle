@@ -369,6 +369,7 @@ body {
   position: fixed;
   top: -250px;
   right: -300px;
+  z-index: 1000;
   animation-name: spin;
   animation-duration: 60s;
   animation-iteration-count: infinite;

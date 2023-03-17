@@ -26,11 +26,9 @@ function OnScroll() {
     if(scrollToTop > heightOfHeader/2) {
         header.addClass('transparent-none');
       	$('.site-nav--centered').addClass('transparent-none');
-        $('.vector-top').addClass('vector-scroll');
     } else {
         header.removeClass('transparent-none');
         $('.site-nav--centered').removeClass('transparent-none');
-        $('.vector-top').removeClass('vector-scroll');
     }
   
   	if(scrollToTop > heightOfHeader*5) {

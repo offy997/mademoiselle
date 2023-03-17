@@ -60,6 +60,7 @@ a:hover {
   border: none;
 }
 .site-nav__link--active .site-nav__label,
+.mobile-nav__link--active .mobile-nav__label,
 .site-footer__linklist-item a[aria-current="page"],
 .site-nav__child-link[aria-current="page"]{
   border-bottom: none !important;

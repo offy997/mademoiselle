@@ -82,6 +82,11 @@ h1.product-single__title {
   text-shadow: unset;
 }
 
+.product-recommendations__inner h2 {
+  font-family: 'Libre Baskerville,serif' !important;
+  font-size: 24px;
+} 
+
 h2#RecoverHeading,
 .title-reset-pass {
   letter-spacing: -0.01em;

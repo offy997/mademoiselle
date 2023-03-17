@@ -69,6 +69,7 @@ a:hover {
 
 .site-nav--active-dropdown svg {
   transform: rotate(-180deg);
+  color: #f9a9de;
 }
 
 h1 {

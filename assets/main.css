@@ -848,6 +848,7 @@ body {
 }
 #CartSpecialInstructions:focus-visible { 
   outline: none;
+  border-color: #f9a9de;
 }
 
 /* my account */

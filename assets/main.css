@@ -15,6 +15,9 @@
   border: none;
   background-color: #ffffff;
 }
+.logo-align--center .site-header__logo {
+  width: fit-content;
+}
 .site-header__logo-image,
 .site-header__logo {
    background-color: transparent;

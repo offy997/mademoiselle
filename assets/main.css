@@ -13,6 +13,7 @@
   width: 100%;
   z-index: 1000;
   border: none;
+  background-color: #ffffff;
 }
 .site-header__logo-image,
 .site-header__logo {
@@ -98,7 +99,7 @@ h2#RecoverHeading,
   z-index: 50;
   margin-top: 0;
   padding-top: 25px;
-  background-color: #ffffff;
+   background-color: #ffffff;
 }
 .transparent-none {
   background-color: #ffffff;

@@ -42,7 +42,7 @@
   z-index: 1000!important;
 }
 #SearchDrawer {
-  height: 72px;
+  height: 72px !important;
 }
 #AccessibleNav {
   border: none;

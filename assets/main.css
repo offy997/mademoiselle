@@ -198,9 +198,7 @@ h2#RecoverHeading,
   border: none;
   top: 30px;
 }
-.pick_currency .list {
-  box-shadow: 0 0 5px 1px #00000026;
-}
+
 .site-nav__dropdown .site-nav__link {
   padding: 2px 15px 5px;
 }

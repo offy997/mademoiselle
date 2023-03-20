@@ -1366,6 +1366,12 @@ margin-top: 0 !important}
   .template-product .product-form {
     max-width: 100%;
   }
+  .product-form__item {
+    text-align: center;
+  }
+  .product-form__item input {
+    margin: 0 auto;
+  }
 }
 @media screen and (max-width: 575px) {
    .template-my-account-custom .list-address-custom .item-add  {

@@ -54,6 +54,12 @@
 #SearchDrawer svg {
   color: #f9a9de;
 }
+.icon.icon-search {
+  transition: all .3s ease-in-out;
+}
+.icon.icon-search:hover {
+  color: #f9a9de;
+}
 #AccessibleNav {
   border: none;
 }

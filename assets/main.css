@@ -295,6 +295,8 @@ h2#RecoverHeading,
   font-size: 18px;
   font-family: 'Libre Baskerville,serif'!important;
   margin-bottom: 13px !important;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 .site-footer__social-icons {
   padding-top: 0 !important;
@@ -314,6 +316,8 @@ h2#RecoverHeading,
   margin-bottom: 15px !important;
   font-family: 'Libre Baskerville,serif'!important;
   font-size: 18px !important;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 .site-footer__newsletter .input-group {
   position: relative;

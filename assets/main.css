@@ -57,6 +57,9 @@
   color: #f9a9de;
   border: none;
 }
+.template-search .h2 {
+  color: #6a0046;
+}
 #SearchDrawer svg {
   color: #6a0046;
 }

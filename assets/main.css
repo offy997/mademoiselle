@@ -723,7 +723,8 @@ body {
   border-color: #ea0606;
   color: #ffffff;
 }
-.price-item--sale {
+.price-item--sale,
+.predictive-search-item__price--sale {
   color: #6a0046 !important;
 }
 .price__badge--sale {

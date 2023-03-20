@@ -49,6 +49,7 @@
 }
 .search-bar__input:focus-visible {
   outline: none !important;
+  border-color: #f9a9de !important;
 }
 #AccessibleNav {
   border: none;

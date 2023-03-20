@@ -54,7 +54,8 @@
   outline: none !important;
   border-color: #f9a9de !important;
 }
-.predictive-search-item__link:hover .predictive-search-item__title-text {
+.predictive-search-item__link:hover .predictive-search-item__title-text,
+.predictive-search-view-all__button:hover span{
   color: #f9a9de;
   border: none;
 }

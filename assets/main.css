@@ -41,7 +41,9 @@
 .search-bar {
   z-index: 1000!important;
 }
-
+#SearchDrawer {
+  height: 72px;
+}
 #AccessibleNav {
   border: none;
 }

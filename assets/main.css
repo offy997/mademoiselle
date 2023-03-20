@@ -44,9 +44,6 @@
 #SearchDrawer {
   height: 72px !important;
 }
-.drawer-page-content::after {
-  display: none !important;
-}
 .search-bar__form {
   max-width: 450px !important; 
 }

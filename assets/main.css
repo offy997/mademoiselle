@@ -1156,7 +1156,9 @@ margin-top: 0 !important}
   flex-wrap: nowrap !important;
   width: 100% !important;
 }
-
+#Quantity-product-template {
+  text-align: center;
+}
 .slick-initialized .product-single__thumbnails-item {
   flex: 0 0 33.333%;
   height: 0;

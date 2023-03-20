@@ -62,6 +62,9 @@
 .icon.icon-search {
   transition: all .3s ease-in-out;
 }
+.search-form__connected-submit {
+  background-color: #6a0046!important;
+}
 .icon.icon-search:hover {
   color: #f9a9de;
 }

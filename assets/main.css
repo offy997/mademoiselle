@@ -1194,11 +1194,11 @@ margin-top: 0 !important}
 
 /* 404 */
 .btn-404 {
-  background: #6a0046;
+  background-color: #6a0046;
 }
 .btn-404:hover {
-  background: #6a0046;
-  color: #ffffff;
+  background-color: #6a0046 !important;
+  color: #ffffff !important;
 }
 /* responsive */
 @media screen and (max-width:990px) {

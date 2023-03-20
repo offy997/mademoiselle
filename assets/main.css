@@ -1364,7 +1364,7 @@ margin-top: 0 !important}
   .predictive-search-wrapper {
     top: 69px !important;
   }
-  .predictive-search-wrapper {
+  .template-search .predictive-search-wrapper {
     top: 42px !important;
   }
 }

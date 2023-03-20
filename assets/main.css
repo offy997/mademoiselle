@@ -723,6 +723,9 @@ body {
   border-color: #ea0606;
   color: #ffffff;
 }
+.price-item--sale {
+  color: #6a0046 !important;
+}
 .product-single .shopify-payment-button__button {
   background: #f9a9de;
 }

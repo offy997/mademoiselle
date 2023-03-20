@@ -54,6 +54,9 @@
   outline: none !important;
   border-color: #f9a9de !important;
 }
+.predictive-search-item__link:hover .predictive-search-item__title-text {
+  color: #f9a9de;
+}
 #SearchDrawer svg {
   color: #6a0046;
 }

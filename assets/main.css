@@ -1277,6 +1277,9 @@ margin-top: 0 !important}
   .site-header__mobile-nav {
     background-color: #ffffff;
   }
+  .site-nav--centered {
+    top: 84px !important;
+  }
   .date-author {
     padding-left: 22px;
   }

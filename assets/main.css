@@ -1337,7 +1337,11 @@ margin-top: 0 !important}
     margin-top: 10px;
   }
 }
-
+@media screen and (max-width: 749px) {
+  .predictive-search-wrapper {
+    top: 69px !important;
+  }
+}
 @media screen and (max-width: 575px) {
   .contact-template .banner-contact img {
     height: 250px;

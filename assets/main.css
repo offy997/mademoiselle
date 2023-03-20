@@ -1034,92 +1034,6 @@ margin-top: 0 !important}
 .btn--narrow {
   padding: 7px 10px;
 }
-@media screen and (max-width:990px) {
-  .template-my-account-custom .myaccount__order-history {
-    padding-left: 22px;
-    padding-top: 20px;
-  }
-  .template-my-account-custom .myaccount__order-history h3,
-  .template-my-account-custom .myaccount__order-history p{
-    text-align: left !important;
-  }
-  .template-my-account-custom .myaccount__account-details {
-    border-right: none;
-    padding: 0 0 20px 22px;
-  }
-  .template-my-account-custom .list-address-custom .item-add  {
-    width: calc(100%/3);
-  }
- 
-}
-
-@media screen and (max-width:767px) {
-  .officience-hero {
-     padding-top: 0;
-   }
-  .officience-hero h1 {
-    font-size: 70px;
-    line-height: 85px;
-    margin-bottom: 30px;
-    max-width: 758px;
-  }
-  .feature-row-video h2,
-  .feature-row h2{
-    font-size: 55px;
-    line-height: 60px;
-  }
-  .officience-hero p,
-  .feature-row p{
-    font-size: 16px;
-    margin-bottom: 25px;
-  }
-  .section-content-quote p {
-    font-size: 35px;
-    line-height: 60px;
-  }
-  .header-list-blog h2 {
-    font-size: 50px;
-  }
-/*   .product-detail-page-custom .product-single__thumbnails .product-single__thumbnail-image {
-    height: 97px;
-  } */
-  .group-row-contact .col-left,
-.group-row-contact .col-right{
-  width: 100%;
-}
-   .group-row-contact .col-content {
-     padding: 0;
-   }
-  .group-row-contact .col-left{
-    margin-bottom: 30px
-  }
-}
-@media screen and (max-width: 749px) {
-  .site-header__icons-wrapper .group-user-list {
-    right: 82px;
-  }
-   .template-my-account-custom .myaccount__order-history table .note {
-  	margin-top: 0;
-    margin-left: 10px
-	}
-  .template-my-account-custom .myaccount__order-history table tbody th[data-label="Order"] {
-  background: rgba(249, 169, 222, 0.3);
-	}
-  .site-header__icons-wrapper .group-user-list {
-    width: 170px;
-  }
-}
-
-@media screen and (max-width: 575px) {
-   .template-my-account-custom .list-address-custom .item-add  {
-    width: calc(100%/2);
-  }
-}
-@media screen and (max-width: 450px) {
-   .template-my-account-custom .list-address-custom .item-add  {
-    width: calc(100%/1);
-  }
-}
 
 /*load more */
 .load-more_wrap{
@@ -1272,7 +1186,62 @@ margin-top: 0 !important}
 
 
 /* responsive */
+@media screen and (max-width:990px) {
+  .template-my-account-custom .myaccount__order-history {
+    padding-left: 22px;
+    padding-top: 20px;
+  }
+  .template-my-account-custom .myaccount__order-history h3,
+  .template-my-account-custom .myaccount__order-history p{
+    text-align: left !important;
+  }
+  .template-my-account-custom .myaccount__account-details {
+    border-right: none;
+    padding: 0 0 20px 22px;
+  }
+  .template-my-account-custom .list-address-custom .item-add  {
+    width: calc(100%/3);
+  }
+ 
+}
 @media screen and (max-width: 767px) {
+  .officience-hero {
+     padding-top: 0;
+   }
+  .officience-hero h1 {
+    font-size: 70px;
+    line-height: 85px;
+    margin-bottom: 30px;
+    max-width: 758px;
+  }
+  .feature-row-video h2,
+  .feature-row h2{
+    font-size: 55px;
+    line-height: 60px;
+  }
+  .officience-hero p,
+  .feature-row p{
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  .section-content-quote p {
+    font-size: 35px;
+    line-height: 60px;
+  }
+  .header-list-blog h2 {
+    font-size: 50px;
+  }
+
+  .group-row-contact .col-left,
+.group-row-contact .col-right{
+  width: 100%;
+}
+   .group-row-contact .col-content {
+     padding: 0;
+   }
+  .group-row-contact .col-left{
+    margin-bottom: 30px
+  }
   .gg-map {
     display: flex;
     flex-wrap: wrap;
@@ -1364,6 +1333,7 @@ margin-top: 0 !important}
     margin-top: 10px;
   }
 }
+
 @media screen and (max-width: 749px) {
   .predictive-search-wrapper {
     top: 69px !important;
@@ -1371,9 +1341,30 @@ margin-top: 0 !important}
   #MainContent .predictive-search-wrapper {
     top: 42px !important;
   }
+   .site-header__icons-wrapper .group-user-list {
+    right: 82px;
+  }
+   .template-my-account-custom .myaccount__order-history table .note {
+  	margin-top: 0;
+    margin-left: 10px
+	}
+  .template-my-account-custom .myaccount__order-history table tbody th[data-label="Order"] {
+  background: rgba(249, 169, 222, 0.3);
+	}
+  .site-header__icons-wrapper .group-user-list {
+    width: 170px;
+  }
 }
 @media screen and (max-width: 575px) {
+   .template-my-account-custom .list-address-custom .item-add  {
+    width: calc(100%/2);
+  }
   .contact-template .banner-contact img {
     height: 250px;
+  }
+}
+@media screen and (max-width: 450px) {
+   .template-my-account-custom .list-address-custom .item-add  {
+    width: calc(100%/1);
   }
 }

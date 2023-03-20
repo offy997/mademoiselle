@@ -727,6 +727,10 @@ body {
 .predictive-search-item__price--sale {
   color: #6a0046 !important;
 }
+.price__compare,
+.predictive-search-item__price--sale {
+  font-weight: 600;
+}
 .price__badge--sale {
   background-color: #6a0046 !important;
    border:none !important

@@ -51,6 +51,9 @@
   outline: none !important;
   border-color: #f9a9de !important;
 }
+#SearchDrawer svg:hover {
+  color: #f9a9de;
+}
 #AccessibleNav {
   border: none;
 }

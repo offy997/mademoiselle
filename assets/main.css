@@ -1360,7 +1360,7 @@ margin-top: 0 !important}
   .product-single__title {
     text-align: center;
   }
-  .product-single__meta price{
+  .product-single__meta .price{
     align-items:center; 
   }
 }

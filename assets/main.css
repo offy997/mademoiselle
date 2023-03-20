@@ -36,11 +36,12 @@
   transition: all 0.3s ease-in-out;
 }
 .drawer {
-  top: 130px !important;
+  top: 96px !important;
 }
 .search-bar {
   z-index: 1000!important;
 }
+
 #AccessibleNav {
   border: none;
 }

@@ -731,6 +731,7 @@ body {
 }
 .product-single .shopify-payment-button__button {
   background: #f9a9de;
+  border:none !important;
 }
 .product-single .shopify-payment-button__button:hover {
   background-color: #f679cc !important;

@@ -1360,6 +1360,9 @@ margin-top: 0 !important}
   .product-single__title {
     text-align: center;
   }
+  .product-single__meta price{
+    align-items:center; 
+  }
 }
 @media screen and (max-width: 575px) {
    .template-my-account-custom .list-address-custom .item-add  {

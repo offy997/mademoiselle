@@ -445,7 +445,7 @@
           "show_vendor": false,
           "sort_enable": true,
           "tags_enable": true,
-          "load_more_pagination": "load_more"
+          "load_more_pagination": "pagination"
         }
       }
     },

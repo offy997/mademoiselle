@@ -1375,7 +1375,8 @@ margin-top: 0 !important}
   .product-form__item input {
     margin: 0 auto;
   }
-  .product-form__controls-group {
+  .product-form__controls-group,
+  .product-form__error-message-wrapper{
     justify-content: center;
   }
 }

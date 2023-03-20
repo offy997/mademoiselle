@@ -201,6 +201,9 @@ h2#RecoverHeading,
 html[lang="fr"] .link-cart-continue {
   right: 160px !important;
 }
+.mlvedaCartNote {
+  padding: 40px 55px !important;
+}
 .site-nav__dropdown .site-nav__link {
   padding: 2px 15px 5px;
 }

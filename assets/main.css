@@ -47,7 +47,8 @@
 .search-bar__form {
   max-width: 450px !important; 
 }
-.search-bar__input:focus-visible {
+.search-bar__input:focus-visible,
+.input-group__field--connected input:focus-visible{
   outline: none !important;
   border-color: #f9a9de !important;
 }

@@ -75,6 +75,9 @@
 .icon.icon-search:hover {
   color: #f9a9de;
 }
+.btn--link:focus-visible {
+  outline: none !important;
+}
 #AccessibleNav {
   border: none;
 }

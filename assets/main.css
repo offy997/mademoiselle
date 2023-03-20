@@ -1357,6 +1357,9 @@ margin-top: 0 !important}
   .site-header__icons-wrapper .group-user-list {
     width: 170px;
   }
+  .product-single__title {
+    text-align: center;
+  }
 }
 @media screen and (max-width: 575px) {
    .template-my-account-custom .list-address-custom .item-add  {

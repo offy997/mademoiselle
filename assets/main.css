@@ -1196,7 +1196,10 @@ margin-top: 0 !important}
 .btn-404 {
   background: #6a0046;
 }
-
+.btn-404:hover {
+  background: #6a0046;
+  color: #ffffff
+}
 /* responsive */
 @media screen and (max-width:990px) {
   .template-my-account-custom .myaccount__order-history {

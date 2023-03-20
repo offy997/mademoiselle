@@ -728,7 +728,8 @@ body {
   color: #6a0046 !important;
 }
 .price__compare,
-.predictive-search-item__price--sale {
+.predictive-search-item__price--sale,
+.predictive-search__column .price__regular {
   font-weight: 600;
 }
 .price__badge--sale {

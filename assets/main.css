@@ -1364,6 +1364,9 @@ margin-top: 0 !important}
   .predictive-search-wrapper {
     top: 69px !important;
   }
+  .predictive-search-wrapper {
+    top: 42px !important;
+  }
 }
 @media screen and (max-width: 575px) {
   .contact-template .banner-contact img {

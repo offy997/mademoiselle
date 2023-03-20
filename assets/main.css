@@ -728,10 +728,10 @@ body {
 }
 .price__badge--sale {
   background-color: #6a0046 !important;
+   border:none !important
 }
 .product-single .shopify-payment-button__button {
   background: #f9a9de;
-  border:none !important;
 }
 .product-single .shopify-payment-button__button:hover {
   background-color: #f679cc !important;

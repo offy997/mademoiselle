@@ -294,7 +294,10 @@ h2#RecoverHeading,
 .title-social {
   font-size: 18px;
   font-family: 'Libre Baskerville,serif'!important;
-  margin-bottom: 15px !important;
+  margin-bottom: 13x !important;
+}
+.site-footer__social-icons {
+  padding-top: 0 !important;
 }
 .site-footer__icon-list li {
   padding: 0;

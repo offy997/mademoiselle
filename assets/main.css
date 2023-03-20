@@ -207,6 +207,9 @@ html[lang="vi"] .link-cart-continue {
 .nice-select .option {
   padding-right: 0 !important;
 }
+.nice-select .option.selected {
+  display: none !important;
+}
 .price--on-sale .price__sale {
   justify-content: center;  
 }

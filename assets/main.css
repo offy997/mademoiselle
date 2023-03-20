@@ -293,6 +293,8 @@ h2#RecoverHeading,
 }
 .title-social {
   font-size: 16px;
+  font-family: 'Libre Baskerville,serif'!important;
+  margin-bottom: 15px;
 }
 .site-footer__icon-list li {
   padding: 0;

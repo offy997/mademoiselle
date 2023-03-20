@@ -1361,7 +1361,7 @@ margin-top: 0 !important}
   }
 }
 @media screen and (max-width: 749px) {
-  .predictive-search-wrapper.js-drawer-open {
+  .predictive-search-wrapper.js-drawer-open.js-drawer-open-top {
     top: 69px !important;
   }
   .template-search .predictive-search-wrapper {

@@ -127,7 +127,9 @@ h1.product-single__title {
   font-family: 'Libre Baskerville,serif' !important;
   font-size: 20px;
 } 
-
+#variant-inventory {
+  color: #6a0046;
+}
 h2#RecoverHeading,
 .title-reset-pass {
   letter-spacing: -0.01em;

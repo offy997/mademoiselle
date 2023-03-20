@@ -47,6 +47,9 @@
 .drawer-page-content::after {
   display: none !important;
 }
+.search-bar__input:focus-visible {
+  outline: none;
+}
 #AccessibleNav {
   border: none;
 }

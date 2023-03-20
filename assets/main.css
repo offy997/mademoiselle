@@ -211,7 +211,7 @@ html[lang="vi"] .link-cart-continue {
   display: none !important;
 }
 .nice-select .option {
-  color: #f9a9de;
+  color: #f9a9de !important;
 }
 .price--on-sale .price__sale {
   justify-content: center;  

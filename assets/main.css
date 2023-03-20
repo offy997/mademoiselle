@@ -204,6 +204,9 @@ html[lang="fr"] .link-cart-continue {
 html[lang="vi"] .link-cart-continue {
   right: 115px !important;
 }
+.nice-select .option {
+  padding-right: 0 !important;
+}
 .price--on-sale .price__sale {
   justify-content: center;  
 }

@@ -213,6 +213,9 @@ html[lang="vi"] .link-cart-continue {
 .price--on-sale .price__sale {
   justify-content: center;  
 }
+.template-search .price--on-sale .price__sale{
+  justify-content: flex-end;
+}
 .mlvedaCartNote {
   padding: 40px 55px !important;
 }

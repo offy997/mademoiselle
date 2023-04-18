@@ -60,7 +60,7 @@
     "mlvedaACS_messageColor": "inherit",
     "mlvedaACS_textHoverColor": "inherit",
     "mlvedaACS_enable": true,
-    "mlvedaACS_supportedCurrencies": "USD VND EUR",
+    "mlvedaACS_supportedCurrencies": "USD EUR",
     "mlvedaACS_hideDecimal": false,
     "mlvedaACS_hoverBackgroundColor": "inherit",
     "mlvedaACS_currencyFormat": "money_with_currency_format",
